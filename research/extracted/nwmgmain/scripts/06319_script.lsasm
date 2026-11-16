@@ -1,0 +1,22 @@
+-- Script
+on mouseDown
+  [0000] getGlobal        212
+  [0003] pushArgList      1
+  [0005] extCall          47
+  [0008] jmpIfZ           7
+  [0011] pushZero        
+  [0012] setGlobal        212
+  [0015] getGlobal        16
+  [0017] pushZero        
+  [0018] eq              
+  [0019] jmpIfZ           22
+  [0022] getGlobal        212
+  [0025] pushZero        
+  [0026] eq              
+  [0027] jmpIfZ           9
+  [0030] getGlobal        208
+  [0033] setGlobal        212
+  [0036] pushArgListNoRet 0
+  [0038] extCall          596
+  [0041] ret             
+end

@@ -1,0 +1,1085 @@
+-- Movie Script
+on platsinit_1
+  [0000] pushZero        
+  [0001] pushZero        
+  [0002] pushZero        
+  [0003] pushZero        
+  [0004] pushInt8         283
+  [0007] pushInt8         343
+  [0010] pushInt8         343
+  [0013] pushZero        
+  [0014] pushInt8         343
+  [0017] pushZero        
+  [0018] pushInt8         282
+  [0021] pushInt8         343
+  [0024] pushInt8         343
+  [0027] pushZero        
+  [0028] pushInt8         343
+  [0031] pushZero        
+  [0032] pushInt8         281
+  [0035] pushInt8         343
+  [0038] pushInt8         343
+  [0041] pushZero        
+  [0042] pushInt8         343
+  [0045] pushZero        
+  [0046] pushInt8         280
+  [0049] pushInt8         343
+  [0052] pushInt8         343
+  [0055] pushZero        
+  [0056] pushInt8         343
+  [0059] pushZero        
+  [0060] pushInt8         279
+  [0063] pushInt8         343
+  [0066] pushInt8         343
+  [0069] pushZero        
+  [0070] pushInt8         343
+  [0073] pushZero        
+  [0074] pushInt8         278
+  [0077] pushInt8         343
+  [0080] pushInt8         278
+  [0083] pushInt8         343
+  [0086] pushInt8         343
+  [0089] pushZero        
+  [0090] pushInt8         343
+  [0093] pushZero        
+  [0094] pushInt8         277
+  [0097] pushInt8         343
+  [0100] pushInt8         343
+  [0103] pushZero        
+  [0104] pushInt8         343
+  [0107] pushZero        
+  [0108] pushInt8         276
+  [0111] pushInt8         343
+  [0114] pushInt8         343
+  [0117] pushZero        
+  [0118] pushInt8         343
+  [0121] pushZero        
+  [0122] pushInt8         275
+  [0125] pushInt8         343
+  [0128] pushInt8         343
+  [0131] pushZero        
+  [0132] pushInt8         343
+  [0135] pushZero        
+  [0136] pushInt8         274
+  [0139] pushInt8         343
+  [0142] pushInt8         343
+  [0145] pushZero        
+  [0146] pushInt8         343
+  [0149] pushZero        
+  [0150] pushInt8         273
+  [0153] pushInt8         343
+  [0156] pushInt8         343
+  [0159] pushZero        
+  [0160] pushInt8         343
+  [0163] pushZero        
+  [0164] pushInt8         272
+  [0167] pushInt8         343
+  [0170] pushInt8         272
+  [0173] pushInt8         343
+  [0176] pushInt8         343
+  [0179] pushZero        
+  [0180] pushInt8         343
+  [0183] pushZero        
+  [0184] pushInt8         271
+  [0187] pushInt8         343
+  [0190] pushInt8         343
+  [0193] pushZero        
+  [0194] pushInt8         343
+  [0197] pushZero        
+  [0198] pushInt8         270
+  [0201] pushInt8         343
+  [0204] pushInt8         343
+  [0207] pushZero        
+  [0208] pushInt8         343
+  [0211] pushZero        
+  [0212] pushInt8         269
+  [0215] pushInt8         343
+  [0218] pushInt8         343
+  [0221] pushZero        
+  [0222] pushInt8         343
+  [0225] pushZero        
+  [0226] pushInt8         268
+  [0229] pushInt8         343
+  [0232] pushInt8         343
+  [0235] pushZero        
+  [0236] pushInt8         343
+  [0239] pushZero        
+  [0240] pushInt8         267
+  [0243] pushInt8         343
+  [0246] pushInt8         343
+  [0249] pushZero        
+  [0250] pushInt8         343
+  [0253] pushZero        
+  [0254] pushInt8         266
+  [0257] pushInt8         343
+  [0260] pushInt8         266
+  [0263] pushInt8         343
+  [0266] pushInt8         343
+  [0269] pushZero        
+  [0270] pushInt8         343
+  [0273] pushZero        
+  [0274] pushInt8         265
+  [0277] pushInt8         343
+  [0280] pushInt8         343
+  [0283] pushZero        
+  [0284] pushInt8         343
+  [0287] pushZero        
+  [0288] pushInt8         264
+  [0291] pushInt8         343
+  [0294] pushInt8         343
+  [0297] pushZero        
+  [0298] pushInt8         343
+  [0301] pushZero        
+  [0302] pushArgList      130
+  [0305] pushList        
+  [0306] setGlobal        261
+  [0309] pushInt8         263
+  [0312] pushInt8         343
+  [0315] pushInt8         343
+  [0318] pushZero        
+  [0319] pushInt8         343
+  [0322] pushZero        
+  [0323] pushInt8         262
+  [0326] pushInt8         343
+  [0329] pushInt8         343
+  [0332] pushZero        
+  [0333] pushInt8         343
+  [0336] pushZero        
+  [0337] pushInt8         261
+  [0340] pushInt8         343
+  [0343] pushInt8         343
+  [0346] pushZero        
+  [0347] pushInt8         343
+  [0350] pushZero        
+  [0351] pushInt8         260
+  [0354] pushInt8         343
+  [0357] pushInt8         260
+  [0360] pushInt8         343
+  [0363] pushInt8         260
+  [0366] pushInt8         343
+  [0369] pushInt8         343
+  [0372] pushZero        
+  [0373] pushInt8         343
+  [0376] pushZero        
+  [0377] pushInt8         343
+  [0380] pushZero        
+  [0381] pushInt8         343
+  [0384] pushZero        
+  [0385] pushInt8         343
+  [0388] pushZero        
+  [0389] pushInt8         343
+  [0392] pushZero        
+  [0393] pushInt8         343
+  [0396] pushZero        
+  [0397] pushInt8         343
+  [0400] pushZero        
+  [0401] pushInt8         343
+  [0404] pushZero        
+  [0405] pushInt8         343
+  [0408] pushZero        
+  [0409] pushInt8         343
+  [0412] pushZero        
+  [0413] pushInt8         343
+  [0416] pushZero        
+  [0417] pushInt8         343
+  [0420] pushZero        
+  [0421] pushInt8         343
+  [0424] pushZero        
+  [0425] pushInt8         343
+  [0428] pushZero        
+  [0429] pushInt8         343
+  [0432] pushZero        
+  [0433] pushInt8         343
+  [0436] pushZero        
+  [0437] pushInt8         343
+  [0440] pushZero        
+  [0441] pushInt8         343
+  [0444] pushZero        
+  [0445] pushInt8         343
+  [0448] pushZero        
+  [0449] pushInt8         343
+  [0452] pushZero        
+  [0453] pushInt8         343
+  [0456] pushZero        
+  [0457] pushInt8         343
+  [0460] pushZero        
+  [0461] pushInt8         343
+  [0464] pushZero        
+  [0465] pushInt8         343
+  [0468] pushZero        
+  [0469] pushInt8         343
+  [0472] pushZero        
+  [0473] pushInt8         343
+  [0476] pushZero        
+  [0477] pushInt8         343
+  [0480] pushZero        
+  [0481] pushInt8         343
+  [0484] pushZero        
+  [0485] pushZero        
+  [0486] pushZero        
+  [0487] pushZero        
+  [0488] pushZero        
+  [0489] pushZero        
+  [0490] pushZero        
+  [0491] pushZero        
+  [0492] pushZero        
+  [0493] pushInt8         343
+  [0496] pushZero        
+  [0497] pushInt8         343
+  [0500] pushZero        
+  [0501] pushInt8         343
+  [0504] pushZero        
+  [0505] pushInt8         343
+  [0508] pushZero        
+  [0509] pushInt8         343
+  [0512] pushZero        
+  [0513] pushInt8         343
+  [0516] pushZero        
+  [0517] pushInt8         343
+  [0520] pushZero        
+  [0521] pushInt8         343
+  [0524] pushZero        
+  [0525] pushInt8         343
+  [0528] pushZero        
+  [0529] pushInt8         343
+  [0532] pushZero        
+  [0533] pushInt8         179
+  [0536] pushInt8         343
+  [0539] pushInt8         179
+  [0542] pushInt8         343
+  [0545] pushInt8         343
+  [0548] pushZero        
+  [0549] pushInt8         343
+  [0552] pushZero        
+  [0553] pushInt8         343
+  [0556] pushZero        
+  [0557] pushInt8         343
+  [0560] pushZero        
+  [0561] pushInt8         343
+  [0564] pushZero        
+  [0565] pushInt8         343
+  [0568] pushZero        
+  [0569] pushInt8         343
+  [0572] pushZero        
+  [0573] pushInt8         343
+  [0576] pushZero        
+  [0577] pushArgList      130
+  [0580] pushList        
+  [0581] setGlobal        260
+  [0584] pushInt8         343
+  [0587] pushZero        
+  [0588] pushInt8         343
+  [0591] pushZero        
+  [0592] pushInt8         343
+  [0595] pushZero        
+  [0596] pushInt8         343
+  [0599] pushZero        
+  [0600] pushInt8         343
+  [0603] pushZero        
+  [0604] pushInt8         343
+  [0607] pushZero        
+  [0608] pushInt8         343
+  [0611] pushZero        
+  [0612] pushInt8         343
+  [0615] pushZero        
+  [0616] pushInt8         343
+  [0619] pushZero        
+  [0620] pushInt8         343
+  [0623] pushZero        
+  [0624] pushInt8         343
+  [0627] pushZero        
+  [0628] pushInt8         343
+  [0631] pushZero        
+  [0632] pushInt8         343
+  [0635] pushZero        
+  [0636] pushInt8         343
+  [0639] pushZero        
+  [0640] pushInt8         343
+  [0643] pushZero        
+  [0644] pushInt8         343
+  [0647] pushZero        
+  [0648] pushInt8         343
+  [0651] pushZero        
+  [0652] pushInt8         343
+  [0655] pushZero        
+  [0656] pushInt8         343
+  [0659] pushZero        
+  [0660] pushInt8         343
+  [0663] pushZero        
+  [0664] pushInt8         343
+  [0667] pushZero        
+  [0668] pushInt8         343
+  [0671] pushZero        
+  [0672] pushInt8         343
+  [0675] pushZero        
+  [0676] pushInt8         121
+  [0679] pushInt8         343
+  [0682] pushInt8         343
+  [0685] pushZero        
+  [0686] pushInt8         343
+  [0689] pushZero        
+  [0690] pushInt8         343
+  [0693] pushZero        
+  [0694] pushInt8         343
+  [0697] pushZero        
+  [0698] pushInt8         343
+  [0701] pushZero        
+  [0702] pushInt8         343
+  [0705] pushZero        
+  [0706] pushInt8         343
+  [0709] pushZero        
+  [0710] pushInt8         343
+  [0713] pushZero        
+  [0714] pushInt8         343
+  [0717] pushZero        
+  [0718] pushInt8         343
+  [0721] pushZero        
+  [0722] pushInt8         343
+  [0725] pushZero        
+  [0726] pushInt8         343
+  [0729] pushZero        
+  [0730] pushInt8         343
+  [0733] pushZero        
+  [0734] pushInt8         343
+  [0737] pushZero        
+  [0738] pushInt8         343
+  [0741] pushZero        
+  [0742] pushInt8         343
+  [0745] pushZero        
+  [0746] pushInt8         343
+  [0749] pushZero        
+  [0750] pushInt8         343
+  [0753] pushZero        
+  [0754] pushInt8         99
+  [0757] pushInt8         343
+  [0760] pushInt8         343
+  [0763] pushZero        
+  [0764] pushInt8         343
+  [0767] pushZero        
+  [0768] pushInt8         343
+  [0771] pushZero        
+  [0772] pushInt8         343
+  [0775] pushZero        
+  [0776] pushInt8         343
+  [0779] pushZero        
+  [0780] pushInt8         343
+  [0783] pushZero        
+  [0784] pushInt8         343
+  [0787] pushZero        
+  [0788] pushInt8         343
+  [0791] pushZero        
+  [0792] pushInt8         95
+  [0795] pushInt8         343
+  [0798] pushInt8         95
+  [0801] pushInt8         343
+  [0804] pushInt8         343
+  [0807] pushZero        
+  [0808] pushInt8         343
+  [0811] pushZero        
+  [0812] pushInt8         343
+  [0815] pushZero        
+  [0816] pushInt8         343
+  [0819] pushZero        
+  [0820] pushInt8         343
+  [0823] pushZero        
+  [0824] pushInt8         343
+  [0827] pushZero        
+  [0828] pushInt8         343
+  [0831] pushZero        
+  [0832] pushInt8         343
+  [0835] pushZero        
+  [0836] pushInt8         343
+  [0839] pushZero        
+  [0840] pushInt8         343
+  [0843] pushZero        
+  [0844] pushInt8         343
+  [0847] pushZero        
+  [0848] pushInt8         343
+  [0851] pushZero        
+  [0852] pushArgList      130
+  [0855] pushList        
+  [0856] setGlobal        259
+  [0859] pushInt8         88
+  [0862] pushInt8         343
+  [0865] pushInt8         88
+  [0868] pushInt8         343
+  [0871] pushInt8         343
+  [0874] pushZero        
+  [0875] pushInt8         343
+  [0878] pushZero        
+  [0879] pushInt8         343
+  [0882] pushZero        
+  [0883] pushInt8         343
+  [0886] pushZero        
+  [0887] pushInt8         343
+  [0890] pushZero        
+  [0891] pushInt8         343
+  [0894] pushZero        
+  [0895] pushInt8         343
+  [0898] pushZero        
+  [0899] pushInt8         343
+  [0902] pushZero        
+  [0903] pushInt8         343
+  [0906] pushZero        
+  [0907] pushInt8         343
+  [0910] pushZero        
+  [0911] pushInt8         343
+  [0914] pushZero        
+  [0915] pushInt8         306
+  [0918] pushInt8         343
+  [0921] pushInt8         306
+  [0924] pushInt8         343
+  [0927] pushInt8         306
+  [0930] pushInt8         343
+  [0933] pushInt8         343
+  [0936] pushZero        
+  [0937] pushInt8         78
+  [0940] pushInt8         343
+  [0943] pushInt8         78
+  [0946] pushInt8         343
+  [0949] pushInt8         78
+  [0952] pushInt8         343
+  [0955] pushInt8         78
+  [0958] pushInt8         343
+  [0961] pushInt8         78
+  [0964] pushInt8         343
+  [0967] pushInt8         78
+  [0970] pushInt8         343
+  [0973] pushInt8         78
+  [0976] pushInt8         343
+  [0979] pushInt8         78
+  [0982] pushInt8         343
+  [0985] pushInt8         78
+  [0988] pushInt8         343
+  [0991] pushInt8         78
+  [0994] pushInt8         343
+  [0997] pushInt8         78
+  [1000] pushInt8         343
+  [1003] pushInt8         78
+  [1006] pushInt8         343
+  [1009] pushInt8         343
+  [1012] pushZero        
+  [1013] pushInt8         314
+  [1016] pushInt8         343
+  [1019] pushInt8         343
+  [1022] pushZero        
+  [1023] pushInt8         343
+  [1026] pushZero        
+  [1027] pushInt8         343
+  [1030] pushZero        
+  [1031] pushInt8         343
+  [1034] pushZero        
+  [1035] pushInt8         343
+  [1038] pushZero        
+  [1039] pushInt8         343
+  [1042] pushZero        
+  [1043] pushInt8         166
+  [1046] pushInt8         343
+  [1049] pushInt8         166
+  [1052] pushInt8         343
+  [1055] pushInt8         166
+  [1058] pushZero        
+  [1059] pushInt8         166
+  [1062] pushZero        
+  [1063] pushInt8         166
+  [1066] pushZero        
+  [1067] pushInt8         166
+  [1070] pushZero        
+  [1071] pushZero        
+  [1072] pushZero        
+  [1073] pushZero        
+  [1074] pushZero        
+  [1075] pushZero        
+  [1076] pushZero        
+  [1077] pushZero        
+  [1078] pushZero        
+  [1079] pushZero        
+  [1080] pushZero        
+  [1081] pushZero        
+  [1082] pushZero        
+  [1083] pushInt8         169
+  [1086] pushZero        
+  [1087] pushInt8         169
+  [1090] pushZero        
+  [1091] pushZero        
+  [1092] pushZero        
+  [1093] pushInt8         56
+  [1096] pushZero        
+  [1097] pushInt8         56
+  [1100] pushInt8         170
+  [1103] pushInt8         56
+  [1106] pushZero        
+  [1107] pushInt8         56
+  [1110] pushZero        
+  [1111] pushInt8         56
+  [1114] pushInt8         171
+  [1117] pushInt8         56
+  [1120] pushInt8         171
+  [1123] pushInt8         56
+  [1126] pushZero        
+  [1127] pushInt8         56
+  [1130] pushZero        
+  [1131] pushInt8         56
+  [1134] pushInt8         172
+  [1137] pushInt8         56
+  [1140] pushInt8         172
+  [1143] pushInt8         56
+  [1146] pushInt8         172
+  [1149] pushInt8         56
+  [1152] pushInt8         172
+  [1155] pushInt8         56
+  [1158] pushZero        
+  [1159] pushArgList      130
+  [1162] pushList        
+  [1163] setGlobal        258
+  [1166] pushInt8         56
+  [1169] pushZero        
+  [1170] pushInt8         56
+  [1173] pushZero        
+  [1174] pushInt8         56
+  [1177] pushZero        
+  [1178] pushInt8         56
+  [1181] pushZero        
+  [1182] pushInt8         56
+  [1185] pushInt8         175
+  [1188] pushInt8         56
+  [1191] pushInt8         175
+  [1194] pushInt8         175
+  [1197] pushZero        
+  [1198] pushInt8         175
+  [1201] pushZero        
+  [1202] pushInt8         175
+  [1205] pushZero        
+  [1206] pushInt8         175
+  [1209] pushZero        
+  [1210] pushZero        
+  [1211] pushZero        
+  [1212] pushZero        
+  [1213] pushZero        
+  [1214] pushZero        
+  [1215] pushZero        
+  [1216] pushZero        
+  [1217] pushZero        
+  [1218] pushInt8         73
+  [1221] pushInt8         177
+  [1224] pushInt8         73
+  [1227] pushZero        
+  [1228] pushInt8         73
+  [1231] pushZero        
+  [1232] pushInt8         73
+  [1235] pushZero        
+  [1236] pushInt8         73
+  [1239] pushZero        
+  [1240] pushInt8         73
+  [1243] pushInt8         179
+  [1246] pushInt8         73
+  [1249] pushZero        
+  [1250] pushInt8         73
+  [1253] pushZero        
+  [1254] pushInt8         73
+  [1257] pushZero        
+  [1258] pushZero        
+  [1259] pushZero        
+  [1260] pushZero        
+  [1261] pushZero        
+  [1262] pushZero        
+  [1263] pushZero        
+  [1264] pushInt8         182
+  [1267] pushZero        
+  [1268] pushZero        
+  [1269] pushZero        
+  [1270] pushZero        
+  [1271] pushZero        
+  [1272] pushZero        
+  [1273] pushZero        
+  [1274] pushInt8         77
+  [1277] pushZero        
+  [1278] pushInt8         184
+  [1281] pushZero        
+  [1282] pushZero        
+  [1283] pushZero        
+  [1284] pushInt8         78
+  [1287] pushZero        
+  [1288] pushInt8         78
+  [1291] pushZero        
+  [1292] pushInt8         78
+  [1295] pushZero        
+  [1296] pushInt8         78
+  [1299] pushInt8         186
+  [1302] pushInt8         78
+  [1305] pushZero        
+  [1306] pushInt8         78
+  [1309] pushZero        
+  [1310] pushInt8         78
+  [1313] pushZero        
+  [1314] pushZero        
+  [1315] pushZero        
+  [1316] pushInt8         188
+  [1319] pushZero        
+  [1320] pushZero        
+  [1321] pushZero        
+  [1322] pushZero        
+  [1323] pushZero        
+  [1324] pushZero        
+  [1325] pushZero        
+  [1326] pushZero        
+  [1327] pushZero        
+  [1328] pushZero        
+  [1329] pushZero        
+  [1330] pushZero        
+  [1331] pushZero        
+  [1332] pushZero        
+  [1333] pushZero        
+  [1334] pushInt8         71
+  [1337] pushZero        
+  [1338] pushInt8         71
+  [1341] pushZero        
+  [1342] pushInt8         71
+  [1345] pushZero        
+  [1346] pushZero        
+  [1347] pushZero        
+  [1348] pushZero        
+  [1349] pushZero        
+  [1350] pushZero        
+  [1351] pushZero        
+  [1352] pushInt8         107
+  [1355] pushInt8         252
+  [1358] pushZero        
+  [1359] pushZero        
+  [1360] pushZero        
+  [1361] pushZero        
+  [1362] pushZero        
+  [1363] pushZero        
+  [1364] pushInt8         109
+  [1367] pushZero        
+  [1368] pushInt8         109
+  [1371] pushZero        
+  [1372] pushInt8         109
+  [1375] pushZero        
+  [1376] pushInt8         109
+  [1379] pushZero        
+  [1380] pushInt8         109
+  [1383] pushZero        
+  [1384] pushInt8         109
+  [1387] pushZero        
+  [1388] pushArgList      130
+  [1391] pushList        
+  [1392] setGlobal        257
+  [1395] pushInt8         109
+  [1398] pushInt8         202
+  [1401] pushInt8         109
+  [1404] pushInt8         202
+  [1407] pushInt8         109
+  [1410] pushInt8         202
+  [1413] pushInt8         202
+  [1416] pushZero        
+  [1417] pushInt8         202
+  [1420] pushInt8         223
+  [1423] pushInt8         108
+  [1426] pushZero        
+  [1427] pushInt8         108
+  [1430] pushZero        
+  [1431] pushZero        
+  [1432] pushZero        
+  [1433] pushZero        
+  [1434] pushZero        
+  [1435] pushZero        
+  [1436] pushZero        
+  [1437] pushZero        
+  [1438] pushZero        
+  [1439] pushInt8         108
+  [1442] pushZero        
+  [1443] pushInt8         108
+  [1446] pushZero        
+  [1447] pushZero        
+  [1448] pushZero        
+  [1449] pushZero        
+  [1450] pushZero        
+  [1451] pushInt8         109
+  [1454] pushZero        
+  [1455] pushInt8         109
+  [1458] pushZero        
+  [1459] pushInt8         109
+  [1462] pushZero        
+  [1463] pushInt8         109
+  [1466] pushZero        
+  [1467] pushInt8         109
+  [1470] pushZero        
+  [1471] pushInt8         109
+  [1474] pushZero        
+  [1475] pushInt8         109
+  [1478] pushZero        
+  [1479] pushInt8         109
+  [1482] pushZero        
+  [1483] pushInt8         109
+  [1486] pushZero        
+  [1487] pushZero        
+  [1488] pushZero        
+  [1489] pushZero        
+  [1490] pushZero        
+  [1491] pushInt8         108
+  [1494] pushZero        
+  [1495] pushZero        
+  [1496] pushZero        
+  [1497] pushZero        
+  [1498] pushZero        
+  [1499] pushZero        
+  [1500] pushZero        
+  [1501] pushInt8         106
+  [1504] pushZero        
+  [1505] pushInt8         106
+  [1508] pushZero        
+  [1509] pushZero        
+  [1510] pushZero        
+  [1511] pushZero        
+  [1512] pushZero        
+  [1513] pushInt8         107
+  [1516] pushZero        
+  [1517] pushZero        
+  [1518] pushZero        
+  [1519] pushZero        
+  [1520] pushZero        
+  [1521] pushInt8         108
+  [1524] pushZero        
+  [1525] pushInt8         108
+  [1528] pushZero        
+  [1529] pushInt8         108
+  [1532] pushZero        
+  [1533] pushZero        
+  [1534] pushZero        
+  [1535] pushZero        
+  [1536] pushZero        
+  [1537] pushInt8         109
+  [1540] pushZero        
+  [1541] pushInt8         109
+  [1544] pushZero        
+  [1545] pushInt8         109
+  [1548] pushZero        
+  [1549] pushInt8         109
+  [1552] pushZero        
+  [1553] pushInt8         109
+  [1556] pushZero        
+  [1557] pushInt8         109
+  [1560] pushZero        
+  [1561] pushInt8         109
+  [1564] pushZero        
+  [1565] pushInt8         109
+  [1568] pushZero        
+  [1569] pushInt8         109
+  [1572] pushZero        
+  [1573] pushInt8         109
+  [1576] pushZero        
+  [1577] pushInt8         109
+  [1580] pushZero        
+  [1581] pushInt8         109
+  [1584] pushZero        
+  [1585] pushInt8         109
+  [1588] pushZero        
+  [1589] pushInt8         109
+  [1592] pushZero        
+  [1593] pushInt8         109
+  [1596] pushZero        
+  [1597] pushInt8         109
+  [1600] pushZero        
+  [1601] pushInt8         109
+  [1604] pushZero        
+  [1605] pushInt8         109
+  [1608] pushZero        
+  [1609] pushInt8         109
+  [1612] pushZero        
+  [1613] pushZero        
+  [1614] pushZero        
+  [1615] pushZero        
+  [1616] pushZero        
+  [1617] pushInt8         108
+  [1620] pushZero        
+  [1621] pushZero        
+  [1622] pushZero        
+  [1623] pushArgList      130
+  [1626] pushList        
+  [1627] setGlobal        256
+  [1630] pushZero        
+  [1631] pushZero        
+  [1632] pushInt8         107
+  [1635] pushZero        
+  [1636] pushInt8         107
+  [1639] pushZero        
+  [1640] pushZero        
+  [1641] pushZero        
+  [1642] pushZero        
+  [1643] pushZero        
+  [1644] pushZero        
+  [1645] pushZero        
+  [1646] pushZero        
+  [1647] pushZero        
+  [1648] pushZero        
+  [1649] pushZero        
+  [1650] pushZero        
+  [1651] pushZero        
+  [1652] pushZero        
+  [1653] pushZero        
+  [1654] pushZero        
+  [1655] pushZero        
+  [1656] pushZero        
+  [1657] pushZero        
+  [1658] pushZero        
+  [1659] pushZero        
+  [1660] pushZero        
+  [1661] pushZero        
+  [1662] pushZero        
+  [1663] pushZero        
+  [1664] pushZero        
+  [1665] pushZero        
+  [1666] pushZero        
+  [1667] pushZero        
+  [1668] pushZero        
+  [1669] pushZero        
+  [1670] pushZero        
+  [1671] pushZero        
+  [1672] pushZero        
+  [1673] pushZero        
+  [1674] pushZero        
+  [1675] pushZero        
+  [1676] pushZero        
+  [1677] pushZero        
+  [1678] pushZero        
+  [1679] pushZero        
+  [1680] pushZero        
+  [1681] pushZero        
+  [1682] pushZero        
+  [1683] pushZero        
+  [1684] pushZero        
+  [1685] pushZero        
+  [1686] pushZero        
+  [1687] pushZero        
+  [1688] pushZero        
+  [1689] pushZero        
+  [1690] pushZero        
+  [1691] pushZero        
+  [1692] pushInt8         56
+  [1695] pushZero        
+  [1696] pushInt8         56
+  [1699] pushZero        
+  [1700] pushInt8         56
+  [1703] pushZero        
+  [1704] pushInt8         56
+  [1707] pushZero        
+  [1708] pushInt8         56
+  [1711] pushZero        
+  [1712] pushInt8         56
+  [1715] pushZero        
+  [1716] pushInt8         56
+  [1719] pushZero        
+  [1720] pushInt8         56
+  [1723] pushZero        
+  [1724] pushInt8         56
+  [1727] pushZero        
+  [1728] pushInt8         56
+  [1731] pushZero        
+  [1732] pushInt8         56
+  [1735] pushZero        
+  [1736] pushInt8         56
+  [1739] pushZero        
+  [1740] pushInt8         56
+  [1743] pushZero        
+  [1744] pushInt8         56
+  [1747] pushZero        
+  [1748] pushInt8         56
+  [1751] pushZero        
+  [1752] pushInt8         56
+  [1755] pushZero        
+  [1756] pushInt8         56
+  [1759] pushZero        
+  [1760] pushInt8         56
+  [1763] pushZero        
+  [1764] pushInt8         56
+  [1767] pushZero        
+  [1768] pushInt8         56
+  [1771] pushZero        
+  [1772] pushInt8         56
+  [1775] pushZero        
+  [1776] pushInt8         56
+  [1779] pushZero        
+  [1780] pushInt8         56
+  [1783] pushZero        
+  [1784] pushZero        
+  [1785] pushZero        
+  [1786] pushZero        
+  [1787] pushZero        
+  [1788] pushZero        
+  [1789] pushZero        
+  [1790] pushZero        
+  [1791] pushZero        
+  [1792] pushZero        
+  [1793] pushZero        
+  [1794] pushZero        
+  [1795] pushZero        
+  [1796] pushZero        
+  [1797] pushZero        
+  [1798] pushZero        
+  [1799] pushZero        
+  [1800] pushZero        
+  [1801] pushZero        
+  [1802] pushZero        
+  [1803] pushZero        
+  [1804] pushZero        
+  [1805] pushZero        
+  [1806] pushZero        
+  [1807] pushZero        
+  [1808] pushZero        
+  [1809] pushZero        
+  [1810] pushArgList      130
+  [1813] pushList        
+  [1814] setGlobal        255
+  [1817] pushZero        
+  [1818] pushZero        
+  [1819] pushZero        
+  [1820] pushZero        
+  [1821] pushZero        
+  [1822] pushZero        
+  [1823] pushZero        
+  [1824] pushZero        
+  [1825] pushZero        
+  [1826] pushZero        
+  [1827] pushZero        
+  [1828] pushZero        
+  [1829] pushZero        
+  [1830] pushZero        
+  [1831] pushZero        
+  [1832] pushZero        
+  [1833] pushZero        
+  [1834] pushZero        
+  [1835] pushZero        
+  [1836] pushZero        
+  [1837] pushZero        
+  [1838] pushZero        
+  [1839] pushZero        
+  [1840] pushZero        
+  [1841] pushZero        
+  [1842] pushZero        
+  [1843] pushZero        
+  [1844] pushZero        
+  [1845] pushZero        
+  [1846] pushZero        
+  [1847] pushZero        
+  [1848] pushZero        
+  [1849] pushZero        
+  [1850] pushZero        
+  [1851] pushZero        
+  [1852] pushZero        
+  [1853] pushZero        
+  [1854] pushZero        
+  [1855] pushZero        
+  [1856] pushZero        
+  [1857] pushZero        
+  [1858] pushZero        
+  [1859] pushZero        
+  [1860] pushZero        
+  [1861] pushInt8         88
+  [1864] pushZero        
+  [1865] pushInt8         88
+  [1868] pushZero        
+  [1869] pushInt8         88
+  [1872] pushZero        
+  [1873] pushInt8         88
+  [1876] pushZero        
+  [1877] pushInt8         88
+  [1880] pushZero        
+  [1881] pushInt8         88
+  [1884] pushZero        
+  [1885] pushInt8         88
+  [1888] pushZero        
+  [1889] pushZero        
+  [1890] pushZero        
+  [1891] pushZero        
+  [1892] pushZero        
+  [1893] pushZero        
+  [1894] pushZero        
+  [1895] pushZero        
+  [1896] pushZero        
+  [1897] pushZero        
+  [1898] pushZero        
+  [1899] pushZero        
+  [1900] pushZero        
+  [1901] pushZero        
+  [1902] pushZero        
+  [1903] pushZero        
+  [1904] pushZero        
+  [1905] pushInt8         90
+  [1908] pushZero        
+  [1909] pushInt8         90
+  [1912] pushZero        
+  [1913] pushZero        
+  [1914] pushZero        
+  [1915] pushZero        
+  [1916] pushZero        
+  [1917] pushZero        
+  [1918] pushZero        
+  [1919] pushZero        
+  [1920] pushZero        
+  [1921] pushZero        
+  [1922] pushZero        
+  [1923] pushZero        
+  [1924] pushZero        
+  [1925] pushZero        
+  [1926] pushZero        
+  [1927] pushZero        
+  [1928] pushZero        
+  [1929] pushZero        
+  [1930] pushZero        
+  [1931] pushZero        
+  [1932] pushZero        
+  [1933] pushZero        
+  [1934] pushZero        
+  [1935] pushZero        
+  [1936] pushZero        
+  [1937] pushZero        
+  [1938] pushZero        
+  [1939] pushZero        
+  [1940] pushZero        
+  [1941] pushZero        
+  [1942] pushZero        
+  [1943] pushZero        
+  [1944] pushZero        
+  [1945] pushZero        
+  [1946] pushZero        
+  [1947] pushZero        
+  [1948] pushZero        
+  [1949] pushZero        
+  [1950] pushZero        
+  [1951] pushZero        
+  [1952] pushZero        
+  [1953] pushZero        
+  [1954] pushZero        
+  [1955] pushZero        
+  [1956] pushZero        
+  [1957] pushZero        
+  [1958] pushZero        
+  [1959] pushZero        
+  [1960] pushZero        
+  [1961] pushInt8         122
+  [1964] pushZero        
+  [1965] pushInt8         122
+  [1968] pushZero        
+  [1969] pushArgList      130
+  [1972] pushList        
+  [1973] setGlobal        254
+  [1976] pushInt8         122
+  [1979] pushZero        
+  [1980] pushInt8         122
+  [1983] pushZero        
+  [1984] pushInt8         122
+  [1987] pushZero        
+  [1988] pushZero        
+  [1989] pushZero        
+  [1990] pushZero        
+  [1991] pushZero        
+  [1992] pushZero        
+  [1993] pushZero        
+  [1994] pushZero        
+  [1995] pushZero        
+  [1996] pushArgList      14
+  [1998] pushList        
+  [1999] setGlobal        253
+  [2002] ret             
+end

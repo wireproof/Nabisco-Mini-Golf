@@ -1,0 +1,84 @@
+-- Score Script
+on mouseUp
+  [0000] getParam         0
+  [0002] getObjProp       1234
+  [0005] pushArgList      1
+  [0007] extCall          91
+  [0010] getObjProp       51
+  [0013] pushCons         0
+  [0015] pushArgList      1
+  [0017] extCall          50
+  [0020] getObjProp       51
+  [0023] eq              
+  [0024] jmpIfZ           38
+  [0027] getGlobal        23
+  [0029] pushZero        
+  [0030] eq              
+  [0031] jmpIfZ           31
+  [0034] getGlobal        606
+  [0037] pushZero        
+  [0038] ltEq            
+  [0039] jmpIfZ           23
+  [0042] getGlobal        408
+  [0045] setGlobal        606
+  [0048] getGlobal        363
+  [0051] pushInt8         255
+  [0054] getGlobal        210
+  [0057] pushArgListNoRet 3
+  [0059] extCall          128
+  [0062] pushArgListNoRet 0
+  [0064] extCall          66
+  [0067] ret             
+end
+
+on mouseEnter
+  [0000] getParam         0
+  [0002] getObjProp       1234
+  [0005] pushArgList      1
+  [0007] extCall          91
+  [0010] getObjProp       51
+  [0013] pushCons         8
+  [0015] pushArgList      1
+  [0017] extCall          50
+  [0020] getObjProp       51
+  [0023] eq              
+  [0024] jmpIfZ           26
+  [0027] getParam         0
+  [0029] getObjProp       1234
+  [0032] pushArgList      1
+  [0034] extCall          91
+  [0037] pushCons         16
+  [0039] pushArgList      1
+  [0041] extCall          50
+  [0044] getObjProp       51
+  [0047] setObjProp       51
+  [0050] pushArgListNoRet 0
+  [0052] extCall          66
+  [0055] ret             
+end
+
+on mouseLeave
+  [0000] getParam         0
+  [0002] getObjProp       1234
+  [0005] pushArgList      1
+  [0007] extCall          91
+  [0010] getObjProp       51
+  [0013] pushCons         24
+  [0015] pushArgList      1
+  [0017] extCall          50
+  [0020] getObjProp       51
+  [0023] eq              
+  [0024] jmpIfZ           26
+  [0027] getParam         0
+  [0029] getObjProp       1234
+  [0032] pushArgList      1
+  [0034] extCall          91
+  [0037] pushCons         32
+  [0039] pushArgList      1
+  [0041] extCall          50
+  [0044] getObjProp       51
+  [0047] setObjProp       51
+  [0050] pushArgListNoRet 0
+  [0052] extCall          66
+  [0055] ret             
+end

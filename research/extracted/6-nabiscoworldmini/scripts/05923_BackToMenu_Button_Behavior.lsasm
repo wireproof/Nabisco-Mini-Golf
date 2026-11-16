@@ -1,0 +1,82 @@
+-- Score Script
+on mouseEnter
+  [0000] getParam         0
+  [0002] getObjProp       1234
+  [0005] pushArgList      1
+  [0007] extCall          91
+  [0010] getObjProp       51
+  [0013] getGlobal        588
+  [0016] eq              
+  [0017] jmpIfZ           23
+  [0020] getParam         0
+  [0022] getObjProp       1234
+  [0025] pushArgList      1
+  [0027] extCall          91
+  [0030] getGlobal        588
+  [0033] pushInt8         1
+  [0036] add             
+  [0037] setObjProp       51
+  [0040] pushArgListNoRet 0
+  [0042] extCall          66
+  [0045] ret             
+end
+
+on mouseLeave
+  [0000] getParam         0
+  [0002] getObjProp       1234
+  [0005] pushArgList      1
+  [0007] extCall          91
+  [0010] getObjProp       51
+  [0013] getGlobal        588
+  [0016] pushInt8         1
+  [0019] add             
+  [0020] eq              
+  [0021] jmpIfZ           19
+  [0024] getParam         0
+  [0026] getObjProp       1234
+  [0029] pushArgList      1
+  [0031] extCall          91
+  [0034] getGlobal        588
+  [0037] setObjProp       51
+  [0040] pushArgListNoRet 0
+  [0042] extCall          66
+  [0045] ret             
+end
+
+on mouseDown
+  [0000] getParam         0
+  [0002] getObjProp       1234
+  [0005] setGlobal        662
+  [0008] ret             
+end
+
+on mouseUp
+  [0000] getGlobal        662
+  [0003] jmpIfZ           63
+  [0006] pushZero        
+  [0007] setGlobal        662
+  [0010] getParam         0
+  [0012] getObjProp       1234
+  [0015] pushArgList      1
+  [0017] extCall          91
+  [0020] getGlobal        588
+  [0023] setObjProp       51
+  [0026] getGlobal        364
+  [0029] pushInt8         255
+  [0032] pushInt8         2
+  [0035] pushZero        
+  [0036] pushArgListNoRet 4
+  [0038] extCall          128
+  [0041] getGlobal        23
+  [0043] not             
+  [0044] jmpIfZ           22
+  [0047] getGlobal        610
+  [0050] pushZero        
+  [0051] eq              
+  [0052] jmpIfZ           9
+  [0055] getGlobal        408
+  [0058] setGlobal        610
+  [0061] pushArgListNoRet 0
+  [0063] extCall          1361
+  [0066] ret             
+end

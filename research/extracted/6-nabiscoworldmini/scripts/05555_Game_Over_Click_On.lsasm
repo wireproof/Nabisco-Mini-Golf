@@ -1,0 +1,30 @@
+-- Score Script
+on mouseDown
+  [0000] pushInt8         1
+  [0003] setGlobal        1367
+  [0006] ret             
+end
+
+on mouseUp
+  [0000] getGlobal        1367
+  [0003] pushInt8         1
+  [0006] eq              
+  [0007] jmpIfZ           40
+  [0010] pushZero        
+  [0011] setGlobal        1367
+  [0014] getGlobal        396
+  [0017] pushInt8         1
+  [0020] add             
+  [0021] pushArgList      1
+  [0023] extCall          91
+  [0026] getObjProp       51
+  [0029] pushArgList      1
+  [0031] extCall          50
+  [0034] getObjProp       53
+  [0037] pushCons         0
+  [0039] containsStr     
+  [0040] jmpIfZ           7
+  [0043] pushZero        
+  [0044] setGlobal        628
+  [0047] ret             
+end

@@ -1,0 +1,131 @@
+-- Score Script
+on mouseEnter
+  [0000] getParam         0
+  [0002] getObjProp       1234
+  [0005] setLocal         0
+  [0007] getLocal         0
+  [0009] getGlobal        581
+  [0012] pushInt8         2
+  [0015] add             
+  [0016] sub             
+  [0017] setLocal         8
+  [0019] getGlobal        586
+  [0022] pushInt8         2
+  [0025] getLocal         8
+  [0027] pushInt8         1
+  [0030] sub             
+  [0031] mul             
+  [0032] add             
+  [0033] setLocal         16
+  [0035] getLocal         16
+  [0037] pushInt8         1
+  [0040] add             
+  [0041] setLocal         24
+  [0043] getLocal         0
+  [0045] pushArgList      1
+  [0047] extCall          91
+  [0050] getObjProp       51
+  [0053] getLocal         16
+  [0055] eq              
+  [0056] jmpIfZ           15
+  [0059] getLocal         0
+  [0061] pushArgList      1
+  [0063] extCall          91
+  [0066] getLocal         24
+  [0068] setObjProp       51
+  [0071] pushArgListNoRet 0
+  [0073] extCall          66
+  [0076] ret             
+end
+
+on mouseLeave
+  [0000] getParam         0
+  [0002] getObjProp       1234
+  [0005] setLocal         0
+  [0007] getLocal         0
+  [0009] getGlobal        581
+  [0012] pushInt8         2
+  [0015] add             
+  [0016] sub             
+  [0017] setLocal         8
+  [0019] getGlobal        586
+  [0022] pushInt8         2
+  [0025] getLocal         8
+  [0027] pushInt8         1
+  [0030] sub             
+  [0031] mul             
+  [0032] add             
+  [0033] setLocal         16
+  [0035] getLocal         16
+  [0037] pushInt8         1
+  [0040] add             
+  [0041] setLocal         24
+  [0043] getLocal         0
+  [0045] pushArgList      1
+  [0047] extCall          91
+  [0050] getObjProp       51
+  [0053] getLocal         24
+  [0055] eq              
+  [0056] jmpIfZ           15
+  [0059] getLocal         0
+  [0061] pushArgList      1
+  [0063] extCall          91
+  [0066] getLocal         16
+  [0068] setObjProp       51
+  [0071] pushArgListNoRet 0
+  [0073] extCall          66
+  [0076] ret             
+end
+
+on mouseDown
+  [0000] getParam         0
+  [0002] getObjProp       1234
+  [0005] setGlobal        662
+  [0008] ret             
+end
+
+on mouseUp
+  [0000] getParam         0
+  [0002] getObjProp       1234
+  [0005] setLocal         0
+  [0007] getGlobal        662
+  [0010] getLocal         0
+  [0012] eq              
+  [0013] jmpIfZ           81
+  [0016] getLocal         0
+  [0018] getGlobal        581
+  [0021] pushInt8         2
+  [0024] add             
+  [0025] sub             
+  [0026] setLocal         8
+  [0028] getGlobal        586
+  [0031] pushInt8         2
+  [0034] getLocal         8
+  [0036] pushInt8         1
+  [0039] sub             
+  [0040] mul             
+  [0041] add             
+  [0042] setLocal         16
+  [0044] getLocal         16
+  [0046] pushInt8         1
+  [0049] add             
+  [0050] setLocal         24
+  [0052] getLocal         0
+  [0054] pushArgList      1
+  [0056] extCall          91
+  [0059] getLocal         24
+  [0061] setObjProp       51
+  [0064] getGlobal        408
+  [0067] setGlobal        663
+  [0070] getLocal         8
+  [0072] setGlobal        17
+  [0074] getLocal         8
+  [0076] setGlobal        558
+  [0079] getGlobal        364
+  [0082] pushInt8         255
+  [0085] pushInt8         2
+  [0088] pushZero        
+  [0089] pushArgListNoRet 4
+  [0091] extCall          128
+  [0094] ret             
+end

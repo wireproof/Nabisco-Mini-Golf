@@ -1,0 +1,505 @@
+-- Movie Script
+on initLocalSounds
+  [0000] pushCons         0
+  [0002] pushZero        
+  [0003] pushInt8         10
+  [0006] get              9
+  [0008] setGlobal        257
+  [0011] pushCons         8
+  [0013] pushZero        
+  [0014] pushInt8         10
+  [0017] get              9
+  [0019] setGlobal        368
+  [0022] pushCons         16
+  [0024] pushZero        
+  [0025] pushInt8         10
+  [0028] get              9
+  [0030] setGlobal        248
+  [0033] pushCons         24
+  [0035] pushZero        
+  [0036] pushInt8         10
+  [0039] get              9
+  [0041] setGlobal        367
+  [0044] pushCons         32
+  [0046] pushZero        
+  [0047] pushInt8         10
+  [0050] get              9
+  [0052] setGlobal        272
+  [0055] pushCons         40
+  [0057] pushZero        
+  [0058] pushInt8         10
+  [0061] get              9
+  [0063] setGlobal        366
+  [0066] pushCons         48
+  [0068] pushZero        
+  [0069] pushInt8         10
+  [0072] get              9
+  [0074] setGlobal        129
+  [0077] pushCons         56
+  [0079] pushZero        
+  [0080] pushInt8         10
+  [0083] get              9
+  [0085] setGlobal        364
+  [0088] pushCons         64
+  [0090] pushZero        
+  [0091] pushInt8         10
+  [0094] get              9
+  [0096] setGlobal        365
+  [0099] pushCons         72
+  [0101] pushZero        
+  [0102] pushInt8         10
+  [0105] get              9
+  [0107] setGlobal        363
+  [0110] pushCons         80
+  [0112] pushZero        
+  [0113] pushInt8         10
+  [0116] get              9
+  [0118] setGlobal        362
+  [0121] pushCons         88
+  [0123] pushZero        
+  [0124] pushInt8         10
+  [0127] get              9
+  [0129] setGlobal        361
+  [0132] pushCons         96
+  [0134] pushZero        
+  [0135] pushInt8         10
+  [0138] get              9
+  [0140] setGlobal        360
+  [0143] pushCons         104
+  [0145] pushZero        
+  [0146] pushInt8         10
+  [0149] get              9
+  [0151] setGlobal        359
+  [0154] pushCons         112
+  [0156] pushZero        
+  [0157] pushInt8         10
+  [0160] get              9
+  [0162] setGlobal        358
+  [0165] pushCons         120
+  [0167] pushZero        
+  [0168] pushInt8         10
+  [0171] get              9
+  [0173] setGlobal        247
+  [0176] pushCons         128
+  [0178] pushZero        
+  [0179] pushInt8         10
+  [0182] get              9
+  [0184] setGlobal        357
+  [0187] pushCons         136
+  [0189] pushZero        
+  [0190] pushInt8         10
+  [0193] get              9
+  [0195] setGlobal        243
+  [0198] pushCons         144
+  [0200] pushZero        
+  [0201] pushInt8         10
+  [0204] get              9
+  [0206] setGlobal        356
+  [0209] pushCons         152
+  [0211] pushZero        
+  [0212] pushInt8         10
+  [0215] get              9
+  [0217] setGlobal        355
+  [0220] pushCons         160
+  [0222] pushZero        
+  [0223] pushInt8         10
+  [0226] get              9
+  [0228] setGlobal        354
+  [0231] pushCons         168
+  [0233] pushZero        
+  [0234] pushInt8         10
+  [0237] get              9
+  [0239] setGlobal        245
+  [0242] pushCons         176
+  [0244] pushZero        
+  [0245] pushInt8         10
+  [0248] get              9
+  [0250] setGlobal        353
+  [0253] pushCons         184
+  [0255] pushZero        
+  [0256] pushInt8         10
+  [0259] get              9
+  [0261] setGlobal        352
+  [0264] pushCons         192
+  [0266] pushZero        
+  [0267] pushInt8         10
+  [0270] get              9
+  [0272] setGlobal        351
+  [0275] pushCons         200
+  [0277] pushZero        
+  [0278] pushInt8         10
+  [0281] get              9
+  [0283] setGlobal        350
+  [0286] pushCons         208
+  [0288] pushZero        
+  [0289] pushInt8         10
+  [0292] get              9
+  [0294] setGlobal        349
+  [0297] pushCons         216
+  [0299] pushZero        
+  [0300] pushInt8         10
+  [0303] get              9
+  [0305] setGlobal        348
+  [0308] pushCons         224
+  [0310] pushZero        
+  [0311] pushInt8         10
+  [0314] get              9
+  [0316] setGlobal        347
+  [0319] pushCons         232
+  [0321] pushZero        
+  [0322] pushInt8         10
+  [0325] get              9
+  [0327] setGlobal        346
+  [0330] pushCons         240
+  [0332] pushZero        
+  [0333] pushInt8         10
+  [0336] get              9
+  [0338] setGlobal        345
+  [0341] pushCons         248
+  [0343] pushZero        
+  [0344] pushInt8         10
+  [0347] get              9
+  [0349] setGlobal        344
+  [0352] pushCons         256
+  [0355] pushZero        
+  [0356] pushInt8         10
+  [0359] get              9
+  [0361] setGlobal        343
+  [0364] pushCons         264
+  [0367] pushZero        
+  [0368] pushInt8         10
+  [0371] get              9
+  [0373] setGlobal        342
+  [0376] pushCons         272
+  [0379] pushZero        
+  [0380] pushInt8         10
+  [0383] get              9
+  [0385] setGlobal        341
+  [0388] pushCons         280
+  [0391] pushZero        
+  [0392] pushInt8         10
+  [0395] get              9
+  [0397] setGlobal        340
+  [0400] pushCons         288
+  [0403] pushZero        
+  [0404] pushInt8         10
+  [0407] get              9
+  [0409] setGlobal        339
+  [0412] pushCons         296
+  [0415] pushZero        
+  [0416] pushInt8         10
+  [0419] get              9
+  [0421] setGlobal        338
+  [0424] pushCons         304
+  [0427] pushZero        
+  [0428] pushInt8         10
+  [0431] get              9
+  [0433] setGlobal        337
+  [0436] pushCons         312
+  [0439] pushZero        
+  [0440] pushInt8         10
+  [0443] get              9
+  [0445] setGlobal        336
+  [0448] pushCons         320
+  [0451] pushZero        
+  [0452] pushInt8         10
+  [0455] get              9
+  [0457] setGlobal        335
+  [0460] pushCons         328
+  [0463] pushZero        
+  [0464] pushInt8         10
+  [0467] get              9
+  [0469] setGlobal        334
+  [0472] pushCons         336
+  [0475] pushZero        
+  [0476] pushInt8         10
+  [0479] get              9
+  [0481] setGlobal        333
+  [0484] pushCons         344
+  [0487] pushZero        
+  [0488] pushInt8         10
+  [0491] get              9
+  [0493] setGlobal        335
+  [0496] pushCons         352
+  [0499] pushZero        
+  [0500] pushInt8         10
+  [0503] get              9
+  [0505] setGlobal        334
+  [0508] pushCons         360
+  [0511] pushZero        
+  [0512] pushInt8         10
+  [0515] get              9
+  [0517] setGlobal        333
+  [0520] pushCons         368
+  [0523] pushZero        
+  [0524] pushInt8         10
+  [0527] get              9
+  [0529] setGlobal        332
+  [0532] pushCons         376
+  [0535] pushZero        
+  [0536] pushInt8         10
+  [0539] get              9
+  [0541] setGlobal        331
+  [0544] pushCons         384
+  [0547] pushZero        
+  [0548] pushInt8         10
+  [0551] get              9
+  [0553] setGlobal        330
+  [0556] pushCons         392
+  [0559] pushZero        
+  [0560] pushInt8         10
+  [0563] get              9
+  [0565] setGlobal        329
+  [0568] pushCons         400
+  [0571] pushZero        
+  [0572] pushInt8         10
+  [0575] get              9
+  [0577] setGlobal        328
+  [0580] pushCons         408
+  [0583] pushZero        
+  [0584] pushInt8         10
+  [0587] get              9
+  [0589] setGlobal        327
+  [0592] pushCons         416
+  [0595] pushZero        
+  [0596] pushInt8         10
+  [0599] get              9
+  [0601] setGlobal        326
+  [0604] pushCons         424
+  [0607] pushZero        
+  [0608] pushInt8         10
+  [0611] get              9
+  [0613] setGlobal        325
+  [0616] pushCons         432
+  [0619] pushZero        
+  [0620] pushInt8         10
+  [0623] get              9
+  [0625] setGlobal        324
+  [0628] pushCons         440
+  [0631] pushZero        
+  [0632] pushInt8         10
+  [0635] get              9
+  [0637] setGlobal        209
+  [0640] pushCons         448
+  [0643] pushZero        
+  [0644] pushInt8         10
+  [0647] get              9
+  [0649] setGlobal        1310
+  [0652] pushCons         456
+  [0655] pushZero        
+  [0656] pushInt8         10
+  [0659] get              9
+  [0661] setGlobal        1311
+  [0664] pushCons         464
+  [0667] pushZero        
+  [0668] pushInt8         10
+  [0671] get              9
+  [0673] setGlobal        1312
+  [0676] pushCons         472
+  [0679] pushZero        
+  [0680] pushInt8         10
+  [0683] get              9
+  [0685] setGlobal        1313
+  [0688] pushCons         480
+  [0691] pushZero        
+  [0692] pushInt8         10
+  [0695] get              9
+  [0697] setGlobal        1314
+  [0700] pushInt8         2
+  [0703] setGlobal        210
+  [0706] getGlobal        210
+  [0709] pushInt8         255
+  [0712] pushArgListNoRet 2
+  [0714] localCall        3
+  [0716] pushZero        
+  [0717] setGlobal        271
+  [0720] ret             
+end
+
+on playSound
+  [0000] getParam         8
+  [0002] pushArgList      1
+  [0004] extCall          238
+  [0007] jmpIfZ           11
+  [0010] pushInt8         255
+  [0013] setParam         8
+  [0015] jmp              17
+  [0018] getParam         8
+  [0020] pushInt8         255
+  [0023] gt              
+  [0024] jmpIfZ           8
+  [0027] pushInt8         255
+  [0030] setParam         8
+  [0032] getParam         24
+  [0034] pushArgList      1
+  [0036] extCall          238
+  [0039] jmpIfZ           6
+  [0042] pushZero        
+  [0043] setParam         24
+  [0045] getParam         24
+  [0047] pushZero        
+  [0048] lt              
+  [0049] jmpIfZ           9
+  [0052] pushZero        
+  [0053] setParam         24
+  [0055] jmp              17
+  [0058] getParam         24
+  [0060] pushInt8         9
+  [0063] gt              
+  [0064] jmpIfZ           8
+  [0067] pushInt8         9
+  [0070] setParam         24
+  [0072] getParam         24
+  [0074] pushZero        
+  [0075] gt              
+  [0076] jmpIfZ           15
+  [0079] pushInt8         255
+  [0082] pushInt8         25
+  [0085] getParam         24
+  [0087] mul             
+  [0088] sub             
+  [0089] setParam         8
+  [0091] getParam         16
+  [0093] setGlobal        271
+  [0096] getGlobal        1315
+  [0099] pushArgList      1
+  [0101] extCall          238
+  [0104] jmpIfZ           7
+  [0107] pushZero        
+  [0108] setGlobal        1315
+  [0111] getGlobal        1315
+  [0114] pushInt8         1
+  [0117] add             
+  [0118] setGlobal        1315
+  [0121] getGlobal        1315
+  [0124] pushInt8         8
+  [0127] gt              
+  [0128] jmpIfZ           9
+  [0131] pushInt8         1
+  [0134] setGlobal        1315
+  [0137] getGlobal        1315
+  [0140] setLocal         0
+  [0142] pushInt8         1
+  [0145] setLocal         8
+  [0147] getLocal         8
+  [0149] pushInt8         8
+  [0152] ltEq            
+  [0153] jmpIfZ           46
+  [0156] getLocal         0
+  [0158] pushArgList      1
+  [0160] extCall          711
+  [0163] jmpIfZ           25
+  [0166] getLocal         0
+  [0168] pushInt8         1
+  [0171] add             
+  [0172] setLocal         0
+  [0174] getLocal         0
+  [0176] pushInt8         8
+  [0179] gt              
+  [0180] jmpIfZ           8
+  [0183] pushInt8         1
+  [0186] setLocal         0
+  [0188] pushInt8         1
+  [0191] getLocal         8
+  [0193] add             
+  [0194] setLocal         8
+  [0196] endRepeat        49
+  [0199] getLocal         0
+  [0201] setGlobal        1315
+  [0204] getParam         8
+  [0206] pushZero        
+  [0207] gtEq            
+  [0208] jmpIfZ           12
+  [0211] getGlobal        1315
+  [0214] getParam         8
+  [0216] pushArgListNoRet 2
+  [0218] localCall        3
+  [0220] getGlobal        1315
+  [0223] getParam         0
+  [0225] pushArgListNoRet 2
+  [0227] extCall          1316
+  [0230] getParam         0
+  [0232] setGlobal        504
+  [0235] getGlobal        309
+  [0238] not             
+  [0239] jmpIfZ           17
+  [0242] getGlobal        103
+  [0245] pushInt8         1
+  [0248] getGlobal        504
+  [0251] pushArgListNoRet 3
+  [0253] extCall          687
+  [0256] ret             
+end
+
+on stopSound
+  [0000] getGlobal        308
+  [0003] pushSymb         787
+  [0006] ntEq            
+  [0007] jmpIfZ           94
+  [0010] getParam         8
+  [0012] pushArgList      1
+  [0014] extCall          238
+  [0017] jmpIfZ           6
+  [0020] pushZero        
+  [0021] setParam         8
+  [0023] getParam         8
+  [0025] pushArgList      1
+  [0027] extCall          84
+  [0030] setParam         8
+  [0032] getParam         8
+  [0034] pushZero        
+  [0035] lt              
+  [0036] jmpIfZ           6
+  [0039] pushZero        
+  [0040] setParam         8
+  [0042] getParam         8
+  [0044] pushInt8         9
+  [0047] gt              
+  [0048] jmpIfZ           8
+  [0051] pushInt8         9
+  [0054] setParam         8
+  [0056] getParam         8
+  [0058] pushInt8         3
+  [0061] mul             
+  [0062] setParam         8
+  [0064] getParam         0
+  [0066] getParam         8
+  [0068] add             
+  [0069] pushInt8         1000
+  [0072] add             
+  [0073] setParam         0
+  [0075] getParam         0
+  [0077] setGlobal        504
+  [0080] getGlobal        309
+  [0083] not             
+  [0084] jmpIfZ           17
+  [0087] getGlobal        103
+  [0090] pushInt8         1
+  [0093] getGlobal        504
+  [0096] pushArgListNoRet 3
+  [0098] extCall          687
+  [0101] ret             
+end
+
+on qualifyVol
+  [0000] getParam         0
+  [0002] pushInt8         1
+  [0005] eq              
+  [0006] jmpIfZ           8
+  [0009] getParam         8
+  [0011] setGlobal        521
+  [0014] getParam         0
+  [0016] pushInt8         2
+  [0019] eq              
+  [0020] jmpIfZ           8
+  [0023] getParam         8
+  [0025] setGlobal        520
+  [0028] getGlobal        531
+  [0031] not             
+  [0032] jmpIfZ           12
+  [0035] getParam         0
+  [0037] getParam         8
+  [0039] pushInt8         1
+  [0042] set              4
+  [0044] ret             
+end

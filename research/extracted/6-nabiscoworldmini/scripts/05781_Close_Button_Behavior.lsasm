@@ -1,0 +1,90 @@
+-- Score Script
+on mouseEnter
+  [0000] getParam         0
+  [0002] getObjProp       1234
+  [0005] pushArgList      1
+  [0007] extCall          91
+  [0010] getObjProp       51
+  [0013] getGlobal        394
+  [0016] eq              
+  [0017] jmpIfZ           23
+  [0020] getParam         0
+  [0022] getObjProp       1234
+  [0025] pushArgList      1
+  [0027] extCall          91
+  [0030] getGlobal        394
+  [0033] pushInt8         1
+  [0036] add             
+  [0037] setObjProp       51
+  [0040] pushArgListNoRet 0
+  [0042] extCall          66
+  [0045] ret             
+end
+
+on mouseLeave
+  [0000] getParam         0
+  [0002] getObjProp       1234
+  [0005] pushArgList      1
+  [0007] extCall          91
+  [0010] getObjProp       51
+  [0013] getGlobal        394
+  [0016] pushInt8         1
+  [0019] add             
+  [0020] eq              
+  [0021] jmpIfZ           19
+  [0024] getParam         0
+  [0026] getObjProp       1234
+  [0029] pushArgList      1
+  [0031] extCall          91
+  [0034] getGlobal        394
+  [0037] setObjProp       51
+  [0040] pushArgListNoRet 0
+  [0042] extCall          66
+  [0045] ret             
+end
+
+on mouseDown
+  [0000] pushArgList      0
+  [0002] theBuiltin       1372
+  [0005] setGlobal        1371
+  [0008] ret             
+end
+
+on mouseUp
+  [0000] getGlobal        1371
+  [0003] jmpIfZ           87
+  [0006] pushZero        
+  [0007] setGlobal        1371
+  [0010] getGlobal        69
+  [0013] pushInt8         1
+  [0016] pushArgList      2
+  [0018] objCall          70
+  [0021] pushSymb         709
+  [0024] eq              
+  [0025] jmpIfZ           7
+  [0028] pushArgListNoRet 0
+  [0030] extCall          16
+  [0032] getParam         0
+  [0034] getObjProp       1234
+  [0037] pushArgList      1
+  [0039] extCall          91
+  [0042] getGlobal        394
+  [0045] setObjProp       51
+  [0048] getGlobal        364
+  [0051] pushInt8         255
+  [0054] pushInt8         2
+  [0057] pushZero        
+  [0058] pushArgListNoRet 4
+  [0060] extCall          128
+  [0063] getParam         0
+  [0065] getObjProp       1234
+  [0068] getGlobal        397
+  [0071] gt              
+  [0072] jmpIfZ           12
+  [0075] pushInt8         10
+  [0078] setGlobal        393
+  [0081] jmp              9
+  [0084] pushInt8         110
+  [0087] setGlobal        393
+  [0090] ret             
+end

@@ -1,0 +1,80 @@
+-- Script
+on mouseDown
+  [0000] getGlobal        212
+  [0003] pushArgList      1
+  [0005] extCall          47
+  [0008] jmpIfZ           7
+  [0011] pushZero        
+  [0012] setGlobal        212
+  [0015] getGlobal        16
+  [0017] pushZero        
+  [0018] eq              
+  [0019] jmpIfZ           22
+  [0022] getGlobal        212
+  [0025] pushZero        
+  [0026] eq              
+  [0027] jmpIfZ           9
+  [0030] getGlobal        208
+  [0033] setGlobal        212
+  [0036] pushArgListNoRet 0
+  [0038] extCall          596
+  [0041] ret             
+end
+
+on enterFrame
+  [0000] getMovieProp     1556
+  [0003] setLocal         0
+  [0005] getLocal         0
+  [0007] pushInt8         35
+  [0010] get              6
+  [0012] pushInt8         1
+  [0015] sub             
+  [0016] setLocal         8
+  [0018] getLocal         8
+  [0020] setLocal         16
+  [0022] getLocal         0
+  [0024] pushArgList      1
+  [0026] extCall          762
+  [0029] jmpIfZ           20
+  [0032] getLocal         8
+  [0034] pushInt8         1
+  [0037] add             
+  [0038] setLocal         16
+  [0040] getLocal         0
+  [0042] getLocal         16
+  [0044] pushInt8         35
+  [0047] set              6
+  [0049] getGlobal        212
+  [0052] pushZero        
+  [0053] gt              
+  [0054] jmpIfZ           57
+  [0057] getGlobal        212
+  [0060] pushInt8         4
+  [0063] mod             
+  [0064] pushInt8         2
+  [0067] lt              
+  [0068] jmpIfZ           23
+  [0071] getLocal         0
+  [0073] getLocal         8
+  [0075] pushInt8         2
+  [0078] add             
+  [0079] pushInt8         35
+  [0082] set              6
+  [0084] pushArgListNoRet 0
+  [0086] extCall          12
+  [0088] jmp              20
+  [0091] getLocal         0
+  [0093] getLocal         8
+  [0095] pushInt8         1
+  [0098] add             
+  [0099] pushInt8         35
+  [0102] set              6
+  [0104] pushArgListNoRet 0
+  [0106] extCall          12
+  [0108] jmp              12
+  [0111] getLocal         0
+  [0113] getLocal         16
+  [0115] pushInt8         35
+  [0118] set              6
+  [0120] ret             
+end

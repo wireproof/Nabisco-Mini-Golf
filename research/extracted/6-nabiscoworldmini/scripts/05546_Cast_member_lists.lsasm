@@ -1,0 +1,10 @@
+-- Movie Script
+on initcastmems
+  [0000] pushCons         0
+  [0002] pushArgList      1
+  [0004] extCall          50
+  [0007] getObjProp       53
+  [0010] getObjProp       54
+  [0013] setGlobal        641
+  [0016] ret             
+end

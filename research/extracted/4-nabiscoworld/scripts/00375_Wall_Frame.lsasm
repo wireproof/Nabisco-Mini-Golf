@@ -1,0 +1,30 @@
+-- Score Script
+on prepareFrame
+  [0000] getGlobal        595
+  [0003] pushInt8         1
+  [0006] add             
+  [0007] setGlobal        595
+  [0010] pushArgListNoRet 0
+  [0012] extCall          596
+  [0015] ret             
+end
+
+on enterFrame
+  [0000] getGlobal        595
+  [0003] pushInt8         1
+  [0006] add             
+  [0007] setGlobal        595
+  [0010] pushArgListNoRet 0
+  [0012] extCall          596
+  [0015] ret             
+end
+
+on exitFrame
+  [0000] pushArgList      0
+  [0002] theBuiltin       11
+  [0004] pushArgListNoRet 1
+  [0006] extCall          455
+  [0009] pushArgListNoRet 0
+  [0011] extCall          596
+  [0014] ret             
+end

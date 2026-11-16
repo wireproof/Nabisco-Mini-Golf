@@ -1,0 +1,19 @@
+-- Script
+on mouseUp
+  [0000] pushArgList      0
+  [0002] theBuiltin       11
+  [0004] pushInt8         10
+  [0007] gtEq            
+  [0008] jmpIfZ           24
+  [0011] getGlobal        16
+  [0013] pushZero        
+  [0014] eq              
+  [0015] jmpIfZ           17
+  [0018] pushZero        
+  [0019] setGlobal        67
+  [0022] pushArgListNoRet 0
+  [0024] extCall          428
+  [0027] pushArgListNoRet 0
+  [0029] extCall          596
+  [0032] ret             
+end

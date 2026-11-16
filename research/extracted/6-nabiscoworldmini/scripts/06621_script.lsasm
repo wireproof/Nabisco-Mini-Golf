@@ -1,0 +1,14 @@
+-- Script
+on mouseUp
+  [0000] pushZero        
+  [0001] pushArgListNoRet 1
+  [0003] extCall          629
+  [0006] getGlobal        364
+  [0009] pushInt8         255
+  [0012] getGlobal        210
+  [0015] pushArgListNoRet 3
+  [0017] extCall          128
+  [0020] pushArgListNoRet 0
+  [0022] extCall          1361
+  [0025] ret             
+end

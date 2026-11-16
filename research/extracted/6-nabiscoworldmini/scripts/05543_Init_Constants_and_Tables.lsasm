@@ -1,0 +1,1774 @@
+-- Movie Script
+on prepareMovie
+  [0000] pushCons         0
+  [0002] pushArgListNoRet 1
+  [0004] localCall        9
+  [0006] getGlobal        67
+  [0009] pushArgList      1
+  [0011] extCall          238
+  [0014] jmpIfZ           7
+  [0017] pushZero        
+  [0018] setGlobal        67
+  [0021] getGlobal        67
+  [0024] not             
+  [0025] getGlobal        555
+  [0028] pushArgList      1
+  [0030] extCall          238
+  [0033] and             
+  [0034] jmpIfZ           12
+  [0037] pushInt8         1
+  [0040] setGlobal        533
+  [0043] jmp              7
+  [0046] pushZero        
+  [0047] setGlobal        533
+  [0050] getGlobal        67
+  [0053] setLocal         0
+  [0055] getGlobal        533
+  [0058] pushCons         8
+  [0060] pushCons         16
+  [0062] pushArgList      1
+  [0064] extCall          50
+  [0067] getObjProp       51
+  [0070] pushInt8         220
+  [0073] pushZero        
+  [0074] pushArgListNoRet 5
+  [0076] extCall          556
+  [0079] getLocal         0
+  [0081] setGlobal        67
+  [0084] pushInt8         14
+  [0087] setGlobal        528
+  [0090] getGlobal        67
+  [0093] jmpIfZ           36
+  [0096] getGlobal        558
+  [0099] pushInt8         1
+  [0102] pushArgListNoRet 2
+  [0104] extCall          557
+  [0107] pushArgList      0
+  [0109] extCall          560
+  [0112] setGlobal        559
+  [0115] getGlobal        559
+  [0118] pushZero        
+  [0119] eq              
+  [0120] jmpIfZ           9
+  [0123] pushInt8         1
+  [0126] setGlobal        559
+  [0129] getGlobal        561
+  [0132] pushArgList      1
+  [0134] extCall          238
+  [0137] jmpIfZ           7
+  [0140] pushZero        
+  [0141] setGlobal        561
+  [0144] getGlobal        527
+  [0147] pushArgList      1
+  [0149] extCall          238
+  [0152] jmpIfZ           9
+  [0155] pushInt8         2
+  [0158] setGlobal        527
+  [0161] getGlobal        558
+  [0164] pushArgList      1
+  [0166] extCall          238
+  [0169] jmpIfZ           9
+  [0172] getGlobal        527
+  [0175] setGlobal        558
+  [0178] getGlobal        555
+  [0181] pushArgList      1
+  [0183] extCall          238
+  [0186] jmpIfZ           59
+  [0189] pushCons         24
+  [0191] pushInt8         1
+  [0194] pushArgList      2
+  [0196] pushList        
+  [0197] pushCons         32
+  [0199] pushInt8         2
+  [0202] pushArgList      2
+  [0204] pushList        
+  [0205] pushCons         40
+  [0207] pushInt8         1
+  [0210] pushArgList      2
+  [0212] pushList        
+  [0213] pushCons         48
+  [0215] pushInt8         2
+  [0218] pushArgList      2
+  [0220] pushList        
+  [0221] pushArgList      4
+  [0223] pushList        
+  [0224] setGlobal        555
+  [0227] pushSymb         82
+  [0230] pushSymb         82
+  [0233] pushSymb         82
+  [0236] pushSymb         82
+  [0239] pushArgList      4
+  [0241] pushList        
+  [0242] setGlobal        81
+  [0245] getGlobal        305
+  [0248] pushArgList      1
+  [0250] extCall          238
+  [0253] jmpIfZ           9
+  [0256] pushSymb         562
+  [0259] setGlobal        305
+  [0262] getGlobal        563
+  [0265] pushArgList      1
+  [0267] extCall          238
+  [0270] jmpIfZ           9
+  [0273] pushInt8         1
+  [0276] setGlobal        563
+  [0279] getGlobal        536
+  [0282] pushArgList      1
+  [0284] extCall          238
+  [0287] jmpIfZ           9
+  [0290] pushInt8         18
+  [0293] setGlobal        536
+  [0296] getGlobal        528
+  [0299] pushArgList      1
+  [0301] extCall          238
+  [0304] jmpIfZ           9
+  [0307] pushInt8         14
+  [0310] setGlobal        528
+  [0313] getGlobal        564
+  [0316] pushArgList      1
+  [0318] extCall          238
+  [0321] jmpIfZ           7
+  [0324] pushCons         56
+  [0326] setLocal         8
+  [0328] getGlobal        565
+  [0331] pushArgList      1
+  [0333] extCall          238
+  [0336] jmpIfZ           8
+  [0339] pushCons         64
+  [0341] setGlobal        564
+  [0344] getGlobal        566
+  [0347] pushArgList      1
+  [0349] extCall          238
+  [0352] jmpIfZ           9
+  [0355] pushSymb         567
+  [0358] setGlobal        566
+  [0361] getGlobal        568
+  [0364] pushArgList      1
+  [0366] extCall          238
+  [0369] jmpIfZ           7
+  [0372] pushZero        
+  [0373] setGlobal        568
+  [0376] getGlobal        528
+  [0379] pushZero        
+  [0380] eq              
+  [0381] jmpIfZ           9
+  [0384] pushInt8         9999
+  [0387] setGlobal        528
+  [0390] pushInt8         4
+  [0393] pushZero        
+  [0394] set              0
+  [0396] pushCons         72
+  [0398] pushArgList      1
+  [0400] extCall          570
+  [0403] getObjProp       571
+  [0406] setGlobal        569
+  [0409] pushArgListNoRet 0
+  [0411] localCall        8
+  [0413] pushInt8         9999
+  [0416] pushArgList      1
+  [0418] extCall          573
+  [0421] setGlobal        572
+  [0424] pushZero        
+  [0425] setGlobal        309
+  [0428] pushSymb         574
+  [0431] setGlobal        308
+  [0434] pushZero        
+  [0435] setGlobal        121
+  [0438] pushInt8         1
+  [0441] pushArgList      1
+  [0443] extCall          573
+  [0446] setGlobal        18
+  [0448] pushZero        
+  [0449] setGlobal        23
+  [0451] getGlobal        536
+  [0454] pushInt8         4
+  [0457] mul             
+  [0458] pushArgList      1
+  [0460] localCall        6
+  [0462] pushArgList      1
+  [0464] extCall          22
+  [0466] setGlobal        537
+  [0469] pushInt8         4
+  [0472] pushArgList      1
+  [0474] localCall        6
+  [0476] pushArgList      1
+  [0478] extCall          22
+  [0480] setGlobal        304
+  [0483] pushZero        
+  [0484] setGlobal        17
+  [0486] pushInt8         1
+  [0489] pushInt8         1
+  [0492] pushInt8         1
+  [0495] pushInt8         1
+  [0498] pushArgList      4
+  [0500] pushList        
+  [0501] setGlobal        575
+  [0504] pushCons         80
+  [0506] pushArgList      1
+  [0508] extCall          50
+  [0511] getObjProp       51
+  [0514] setLocal         16
+  [0516] pushInt8         1
+  [0519] setLocal         24
+  [0521] getLocal         24
+  [0523] getGlobal        558
+  [0526] ltEq            
+  [0527] jmpIfZ           89
+  [0530] getGlobal        555
+  [0533] getLocal         24
+  [0535] pushArgList      2
+  [0537] objCall          70
+  [0540] pushInt8         1
+  [0543] pushArgList      2
+  [0545] objCall          70
+  [0548] setLocal         32
+  [0550] getLocal         32
+  [0552] pushCons         88
+  [0554] ntEq            
+  [0555] jmpIfZ           22
+  [0558] getLocal         16
+  [0560] getLocal         24
+  [0562] add             
+  [0563] pushInt8         1
+  [0566] sub             
+  [0567] pushArgList      1
+  [0569] extCall          50
+  [0572] getLocal         32
+  [0574] setObjProp       53
+  [0577] getGlobal        575
+  [0580] getLocal         24
+  [0582] getGlobal        555
+  [0585] getLocal         24
+  [0587] pushArgList      2
+  [0589] objCall          70
+  [0592] pushInt8         2
+  [0595] pushArgList      2
+  [0597] objCall          70
+  [0600] pushArgListNoRet 3
+  [0602] objCall          126
+  [0605] pushInt8         1
+  [0608] getLocal         24
+  [0610] add             
+  [0611] setLocal         24
+  [0613] endRepeat        92
+  [0616] pushInt8         1
+  [0619] setGlobal        103
+  [0622] pushZero        
+  [0623] setGlobal        73
+  [0626] pushArgList      0
+  [0628] pushList        
+  [0629] setGlobal        48
+  [0632] getGlobal        526
+  [0635] pushArgList      1
+  [0637] extCall          238
+  [0640] jmpIfZ           8
+  [0643] pushCons         96
+  [0645] setGlobal        526
+  [0648] getGlobal        522
+  [0651] pushArgList      1
+  [0653] extCall          238
+  [0656] jmpIfZ           9
+  [0659] pushInt8         1
+  [0662] setGlobal        522
+  [0665] getGlobal        210
+  [0668] pushArgList      1
+  [0670] extCall          238
+  [0673] jmpIfZ           9
+  [0676] pushInt8         2
+  [0679] setGlobal        210
+  [0682] pushInt8         10
+  [0685] setGlobal        503
+  [0688] pushInt8         19
+  [0691] setGlobal        258
+  [0694] pushInt8         21
+  [0697] setGlobal        86
+  [0700] pushInt8         25
+  [0703] setGlobal        77
+  [0706] pushInt8         29
+  [0709] setGlobal        576
+  [0712] pushInt8         36
+  [0715] setGlobal        76
+  [0718] pushInt8         42
+  [0721] setGlobal        501
+  [0724] pushInt8         44
+  [0727] setGlobal        500
+  [0730] pushInt8         49
+  [0733] setGlobal        420
+  [0736] pushInt8         53
+  [0739] setGlobal        507
+  [0742] pushInt8         78
+  [0745] setGlobal        424
+  [0748] pushInt8         83
+  [0751] setGlobal        418
+  [0754] pushInt8         84
+  [0757] setGlobal        417
+  [0760] pushInt8         86
+  [0763] setGlobal        423
+  [0766] pushInt8         86
+  [0769] setGlobal        577
+  [0772] pushInt8         92
+  [0775] setGlobal        407
+  [0778] pushInt8         148
+  [0781] setGlobal        578
+  [0784] pushInt8         150
+  [0787] setGlobal        397
+  [0790] pushInt8         153
+  [0793] setGlobal        579
+  [0796] pushInt8         157
+  [0799] setGlobal        396
+  [0802] pushInt8         161
+  [0805] setGlobal        401
+  [0808] pushInt8         163
+  [0811] setGlobal        580
+  [0814] pushInt8         165
+  [0817] setGlobal        406
+  [0820] pushInt8         177
+  [0823] setGlobal        405
+  [0826] pushInt8         193
+  [0829] setGlobal        581
+  [0832] pushInt8         200
+  [0835] setGlobal        384
+  [0838] pushCons         104
+  [0840] pushZero        
+  [0841] pushInt8         10
+  [0844] get              9
+  [0846] setGlobal        582
+  [0849] pushCons         112
+  [0851] pushZero        
+  [0852] pushInt8         10
+  [0855] get              9
+  [0857] setGlobal        90
+  [0860] pushCons         120
+  [0862] pushZero        
+  [0863] pushInt8         10
+  [0866] get              9
+  [0868] setGlobal        89
+  [0871] pushCons         128
+  [0873] pushZero        
+  [0874] pushInt8         10
+  [0877] get              9
+  [0879] setGlobal        499
+  [0882] pushCons         136
+  [0884] pushZero        
+  [0885] pushInt8         10
+  [0888] get              9
+  [0890] setGlobal        502
+  [0893] pushCons         144
+  [0895] pushZero        
+  [0896] pushInt8         10
+  [0899] get              9
+  [0901] setGlobal        388
+  [0904] pushCons         152
+  [0906] pushZero        
+  [0907] pushInt8         10
+  [0910] get              9
+  [0912] setGlobal        387
+  [0915] pushCons         160
+  [0917] pushZero        
+  [0918] pushInt8         10
+  [0921] get              9
+  [0923] setGlobal        386
+  [0926] pushCons         168
+  [0928] pushZero        
+  [0929] pushInt8         10
+  [0932] get              9
+  [0934] setGlobal        385
+  [0937] pushCons         176
+  [0939] pushZero        
+  [0940] pushInt8         10
+  [0943] get              9
+  [0945] setGlobal        395
+  [0948] pushCons         184
+  [0950] pushZero        
+  [0951] pushInt8         10
+  [0954] get              9
+  [0956] setGlobal        583
+  [0959] pushCons         192
+  [0961] pushZero        
+  [0962] pushInt8         10
+  [0965] get              9
+  [0967] setGlobal        584
+  [0970] pushCons         200
+  [0972] pushZero        
+  [0973] pushInt8         10
+  [0976] get              9
+  [0978] setGlobal        419
+  [0981] pushCons         208
+  [0983] pushZero        
+  [0984] pushInt8         10
+  [0987] get              9
+  [0989] setGlobal        394
+  [0992] pushCons         216
+  [0994] pushZero        
+  [0995] pushInt8         10
+  [0998] get              9
+  [1000] setGlobal        422
+  [1003] pushCons         224
+  [1005] pushZero        
+  [1006] pushInt8         10
+  [1009] get              9
+  [1011] setGlobal        585
+  [1014] pushCons         232
+  [1016] pushZero        
+  [1017] pushInt8         10
+  [1020] get              9
+  [1022] setGlobal        586
+  [1025] pushCons         240
+  [1027] pushZero        
+  [1028] pushInt8         10
+  [1031] get              9
+  [1033] setGlobal        404
+  [1036] pushCons         248
+  [1038] pushZero        
+  [1039] pushInt8         10
+  [1042] get              9
+  [1044] setGlobal        403
+  [1047] pushCons         256
+  [1050] pushZero        
+  [1051] pushInt8         10
+  [1054] get              9
+  [1056] setGlobal        587
+  [1059] pushCons         264
+  [1062] pushZero        
+  [1063] pushInt8         10
+  [1066] get              9
+  [1068] setGlobal        588
+  [1071] pushCons         272
+  [1074] pushZero        
+  [1075] pushInt8         10
+  [1078] get              9
+  [1080] setGlobal        402
+  [1083] pushArgListNoRet 0
+  [1085] extCall          589
+  [1088] pushArgListNoRet 0
+  [1090] extCall          590
+  [1093] pushZero        
+  [1094] setGlobal        591
+  [1097] pushZero        
+  [1098] setGlobal        592
+  [1101] pushArgListNoRet 0
+  [1103] extCall          593
+  [1106] pushArgListNoRet 0
+  [1108] extCall          594
+  [1111] pushArgListNoRet 0
+  [1113] extCall          595
+  [1116] pushArgList      0
+  [1118] pushList        
+  [1119] setGlobal        596
+  [1122] pushArgList      0
+  [1124] pushList        
+  [1125] setGlobal        597
+  [1128] pushArgList      0
+  [1130] pushList        
+  [1131] setGlobal        598
+  [1134] pushZero        
+  [1135] setGlobal        599
+  [1138] pushInt8         1
+  [1141] setLocal         40
+  [1143] getLocal         40
+  [1145] getGlobal        536
+  [1148] ltEq            
+  [1149] jmpIfZ           43
+  [1152] getGlobal        596
+  [1155] pushZero        
+  [1156] pushArgListNoRet 2
+  [1158] extCall          256
+  [1161] getGlobal        597
+  [1164] pushZero        
+  [1165] pushArgListNoRet 2
+  [1167] extCall          256
+  [1170] getGlobal        598
+  [1173] pushCons         280
+  [1176] pushArgListNoRet 2
+  [1178] extCall          256
+  [1181] pushInt8         1
+  [1184] getLocal         40
+  [1186] add             
+  [1187] setLocal         40
+  [1189] endRepeat        46
+  [1192] getGlobal        596
+  [1195] pushInt8         1
+  [1198] pushInt8         1
+  [1201] pushArgListNoRet 3
+  [1203] extCall          126
+  [1206] pushArgListNoRet 0
+  [1208] localCall        7
+  [1210] pushArgList      0
+  [1212] theBuiltin       600
+  [1215] pushArgList      0
+  [1217] theBuiltin       601
+  [1220] sub             
+  [1221] setGlobal        137
+  [1224] pushArgList      0
+  [1226] theBuiltin       602
+  [1229] pushArgList      0
+  [1231] theBuiltin       603
+  [1234] sub             
+  [1235] setGlobal        138
+  [1238] pushInt8         624
+  [1241] setGlobal        156
+  [1244] pushInt8         106
+  [1247] setGlobal        155
+  [1250] pushInt8         350
+  [1253] setGlobal        158
+  [1256] pushZero        
+  [1257] setGlobal        157
+  [1260] pushInt8         2
+  [1263] pushArgList      0
+  [1265] extCall          160
+  [1268] mul             
+  [1269] setGlobal        512
+  [1272] pushZero        
+  [1273] setGlobal        544
+  [1276] pushZero        
+  [1277] setGlobal        72
+  [1280] pushZero        
+  [1281] setGlobal        523
+  [1284] pushZero        
+  [1285] setGlobal        604
+  [1288] pushZero        
+  [1289] setGlobal        605
+  [1292] pushZero        
+  [1293] setGlobal        606
+  [1296] pushZero        
+  [1297] setGlobal        607
+  [1300] pushZero        
+  [1301] setGlobal        608
+  [1304] pushZero        
+  [1305] setGlobal        609
+  [1308] pushZero        
+  [1309] setGlobal        610
+  [1312] pushZero        
+  [1313] setGlobal        393
+  [1316] pushInt8         12
+  [1319] setGlobal        408
+  [1322] pushInt8         4000
+  [1325] setGlobal        414
+  [1328] pushCons         288
+  [1331] setGlobal        421
+  [1334] getGlobal        422
+  [1337] pushArgList      1
+  [1339] extCall          50
+  [1342] getGlobal        421
+  [1345] setObjProp       53
+  [1348] pushZero        
+  [1349] pushZero        
+  [1350] pushZero        
+  [1351] pushZero        
+  [1352] pushZero        
+  [1353] pushZero        
+  [1354] pushZero        
+  [1355] pushZero        
+  [1356] pushZero        
+  [1357] pushZero        
+  [1358] pushZero        
+  [1359] pushZero        
+  [1360] pushZero        
+  [1361] pushZero        
+  [1362] pushZero        
+  [1363] pushZero        
+  [1364] pushZero        
+  [1365] pushZero        
+  [1366] pushZero        
+  [1367] pushZero        
+  [1368] pushArgList      20
+  [1370] pushList        
+  [1371] setLocal         48
+  [1373] pushInt8         16
+  [1376] pushInt8         24
+  [1379] pushInt8         28
+  [1382] pushInt8         36
+  [1385] pushInt8         44
+  [1388] pushInt8         52
+  [1391] pushInt8         56
+  [1394] pushInt8         64
+  [1397] pushInt8         72
+  [1400] pushInt8         80
+  [1403] pushInt8         211
+  [1406] pushInt8         219
+  [1409] pushInt8         223
+  [1412] pushInt8         231
+  [1415] pushInt8         239
+  [1418] pushInt8         247
+  [1421] pushInt8         251
+  [1424] pushInt8         259
+  [1427] pushInt8         267
+  [1430] pushInt8         275
+  [1433] pushArgList      20
+  [1435] pushList        
+  [1436] setLocal         56
+  [1438] pushInt8         10
+  [1441] pushInt8         10
+  [1444] pushInt8         10
+  [1447] pushInt8         10
+  [1450] pushInt8         10
+  [1453] pushInt8         10
+  [1456] pushInt8         10
+  [1459] pushInt8         10
+  [1462] pushInt8         10
+  [1465] pushInt8         10
+  [1468] pushInt8         10
+  [1471] pushInt8         10
+  [1474] pushInt8         10
+  [1477] pushInt8         10
+  [1480] pushInt8         10
+  [1483] pushInt8         10
+  [1486] pushInt8         10
+  [1489] pushInt8         10
+  [1492] pushInt8         10
+  [1495] pushInt8         10
+  [1498] pushArgList      20
+  [1500] pushList        
+  [1501] setLocal         64
+  [1503] pushInt8         8
+  [1506] pushInt8         8
+  [1509] pushInt8         8
+  [1512] pushInt8         8
+  [1515] pushInt8         8
+  [1518] pushInt8         8
+  [1521] pushInt8         8
+  [1524] pushInt8         8
+  [1527] pushInt8         8
+  [1530] pushInt8         8
+  [1533] pushInt8         8
+  [1536] pushInt8         4
+  [1539] pushArgList      12
+  [1541] pushList        
+  [1542] setLocal         72
+  [1544] pushInt8         20
+  [1547] setLocal         80
+  [1549] pushInt8         1
+  [1552] pushArgListNoRet 1
+  [1554] extCall          24
+  [1556] pushArgList      0
+  [1558] theBuiltin       611
+  [1561] setGlobal        519
+  [1564] pushArgList      0
+  [1566] theBuiltin       612
+  [1569] setGlobal        518
+  [1572] pushSymb         613
+  [1575] setGlobal        305
+  [1578] pushInt8         1
+  [1581] setLocal         88
+  [1583] getLocal         88
+  [1585] pushArgList      1
+  [1587] extCall          573
+  [1590] setGlobal        18
+  [1592] pushZero        
+  [1593] setGlobal        614
+  [1596] pushArgListNoRet 0
+  [1598] extCall          615
+  [1601] ret             
+end
+
+on stopMovie
+  [0000] getGlobal        67
+  [0003] jmpIfZ           8
+  [0006] pushArgListNoRet 0
+  [0008] extCall          626
+  [0011] ret             
+end
+
+on codeInit
+  [0000] pushZero        
+  [0001] pushZero        
+  [0002] pushZero        
+  [0003] pushZero        
+  [0004] pushArgList      4
+  [0006] pushList        
+  [0007] setGlobal        127
+  [0010] pushZero        
+  [0011] pushZero        
+  [0012] pushZero        
+  [0013] pushZero        
+  [0014] pushArgList      4
+  [0016] pushList        
+  [0017] setGlobal        124
+  [0020] pushZero        
+  [0021] pushZero        
+  [0022] pushZero        
+  [0023] pushZero        
+  [0024] pushArgList      4
+  [0026] pushList        
+  [0027] setGlobal        516
+  [0030] pushZero        
+  [0031] pushZero        
+  [0032] pushZero        
+  [0033] pushZero        
+  [0034] pushArgList      4
+  [0036] pushList        
+  [0037] setGlobal        135
+  [0040] pushZero        
+  [0041] pushZero        
+  [0042] pushZero        
+  [0043] pushZero        
+  [0044] pushArgList      4
+  [0046] pushList        
+  [0047] setGlobal        178
+  [0050] getGlobal        77
+  [0053] getGlobal        77
+  [0056] pushInt8         1
+  [0059] add             
+  [0060] getGlobal        77
+  [0063] pushInt8         2
+  [0066] add             
+  [0067] getGlobal        77
+  [0070] pushInt8         3
+  [0073] add             
+  [0074] pushArgList      4
+  [0076] pushList        
+  [0077] setGlobal        74
+  [0080] pushZero        
+  [0081] pushZero        
+  [0082] pushZero        
+  [0083] pushZero        
+  [0084] pushArgList      4
+  [0086] pushList        
+  [0087] setGlobal        275
+  [0090] pushZero        
+  [0091] pushZero        
+  [0092] pushArgList      2
+  [0094] extCall          33
+  [0097] pushZero        
+  [0098] pushZero        
+  [0099] pushArgList      2
+  [0101] extCall          33
+  [0104] pushZero        
+  [0105] pushZero        
+  [0106] pushArgList      2
+  [0108] extCall          33
+  [0111] pushZero        
+  [0112] pushZero        
+  [0113] pushArgList      2
+  [0115] extCall          33
+  [0118] pushArgList      4
+  [0120] pushList        
+  [0121] setGlobal        140
+  [0124] pushZero        
+  [0125] pushZero        
+  [0126] pushZero        
+  [0127] pushZero        
+  [0128] pushArgList      4
+  [0130] pushList        
+  [0131] setGlobal        276
+  [0134] pushZero        
+  [0135] pushZero        
+  [0136] pushZero        
+  [0137] pushZero        
+  [0138] pushArgList      4
+  [0140] pushList        
+  [0141] setGlobal        273
+  [0144] pushZero        
+  [0145] setGlobal        174
+  [0148] pushZero        
+  [0149] pushZero        
+  [0150] pushZero        
+  [0151] pushZero        
+  [0152] pushArgList      4
+  [0154] pushList        
+  [0155] setGlobal        203
+  [0158] pushZero        
+  [0159] pushZero        
+  [0160] pushZero        
+  [0161] pushZero        
+  [0162] pushArgList      4
+  [0164] pushList        
+  [0165] setGlobal        199
+  [0168] pushZero        
+  [0169] pushZero        
+  [0170] pushZero        
+  [0171] pushZero        
+  [0172] pushArgList      4
+  [0174] pushList        
+  [0175] setGlobal        104
+  [0178] pushZero        
+  [0179] setGlobal        131
+  [0182] pushZero        
+  [0183] setGlobal        105
+  [0186] pushZero        
+  [0187] setGlobal        106
+  [0190] pushZero        
+  [0191] pushZero        
+  [0192] pushZero        
+  [0193] pushZero        
+  [0194] pushArgList      4
+  [0196] pushList        
+  [0197] setGlobal        87
+  [0200] pushZero        
+  [0201] pushZero        
+  [0202] pushZero        
+  [0203] pushZero        
+  [0204] pushArgList      4
+  [0206] pushList        
+  [0207] setGlobal        88
+  [0210] pushZero        
+  [0211] pushZero        
+  [0212] pushZero        
+  [0213] pushZero        
+  [0214] pushArgList      4
+  [0216] pushList        
+  [0217] setGlobal        75
+  [0220] pushZero        
+  [0221] pushZero        
+  [0222] pushZero        
+  [0223] pushZero        
+  [0224] pushArgList      4
+  [0226] pushList        
+  [0227] setGlobal        85
+  [0230] pushInt8         1
+  [0233] setLocal         0
+  [0235] getLocal         0
+  [0237] pushInt8         4
+  [0240] ltEq            
+  [0241] jmpIfZ           20
+  [0244] getLocal         0
+  [0246] pushArgListNoRet 1
+  [0248] extCall          108
+  [0251] pushInt8         1
+  [0254] getLocal         0
+  [0256] add             
+  [0257] setLocal         0
+  [0259] endRepeat        24
+  [0261] pushArgList      0
+  [0263] pushList        
+  [0264] setGlobal        322
+  [0267] pushArgList      0
+  [0269] pushList        
+  [0270] setGlobal        321
+  [0273] pushArgList      0
+  [0275] pushList        
+  [0276] setGlobal        320
+  [0279] pushArgList      0
+  [0281] pushList        
+  [0282] setGlobal        319
+  [0285] pushArgList      0
+  [0287] pushList        
+  [0288] setGlobal        318
+  [0291] pushZero        
+  [0292] setGlobal        312
+  [0295] pushZero        
+  [0296] setGlobal        311
+  [0299] pushZero        
+  [0300] setGlobal        23
+  [0302] pushZero        
+  [0303] setGlobal        323
+  [0306] pushInt8         11
+  [0309] setGlobal        517
+  [0312] pushZero        
+  [0313] setGlobal        125
+  [0316] pushZero        
+  [0317] setGlobal        122
+  [0320] pushCons         296
+  [0323] setGlobal        508
+  [0326] pushZero        
+  [0327] pushZero        
+  [0328] pushZero        
+  [0329] pushZero        
+  [0330] pushArgList      4
+  [0332] pushList        
+  [0333] setGlobal        198
+  [0336] pushCons         304
+  [0339] setGlobal        383
+  [0342] pushCons         312
+  [0345] setGlobal        377
+  [0348] pushCons         320
+  [0351] setGlobal        382
+  [0354] pushCons         328
+  [0357] setGlobal        381
+  [0360] pushCons         336
+  [0363] setGlobal        242
+  [0366] pushCons         344
+  [0369] setGlobal        380
+  [0372] pushCons         352
+  [0375] setGlobal        379
+  [0378] pushCons         360
+  [0381] setGlobal        378
+  [0384] pushCons         368
+  [0387] setGlobal        246
+  [0390] pushCons         376
+  [0393] setGlobal        244
+  [0396] pushArgListNoRet 0
+  [0398] localCall        3
+  [0400] pushInt8         1
+  [0403] setLocal         8
+  [0405] getLocal         8
+  [0407] getGlobal        527
+  [0410] ltEq            
+  [0411] jmpIfZ           20
+  [0414] getLocal         8
+  [0416] pushArgListNoRet 1
+  [0418] extCall          627
+  [0421] pushInt8         1
+  [0424] getLocal         8
+  [0426] add             
+  [0427] setLocal         8
+  [0429] endRepeat        24
+  [0431] pushInt8         1
+  [0434] setGlobal        628
+  [0437] getGlobal        568
+  [0440] jmpIfZ           15
+  [0443] pushInt8         1
+  [0446] pushArgListNoRet 1
+  [0448] extCall          629
+  [0451] pushZero        
+  [0452] setGlobal        568
+  [0455] ret             
+end
+
+on SetInitialBallState
+  [0000] pushSymb         107
+  [0003] pushSymb         107
+  [0006] pushSymb         107
+  [0009] pushSymb         107
+  [0012] pushArgList      4
+  [0014] pushList        
+  [0015] setGlobal        69
+  [0018] pushZero        
+  [0019] pushZero        
+  [0020] pushZero        
+  [0021] pushZero        
+  [0022] pushArgList      4
+  [0024] pushList        
+  [0025] setGlobal        127
+  [0028] pushZero        
+  [0029] pushZero        
+  [0030] pushZero        
+  [0031] pushZero        
+  [0032] pushArgList      4
+  [0034] pushList        
+  [0035] setGlobal        124
+  [0038] pushZero        
+  [0039] pushZero        
+  [0040] pushZero        
+  [0041] pushZero        
+  [0042] pushArgList      4
+  [0044] pushList        
+  [0045] setGlobal        203
+  [0048] pushZero        
+  [0049] pushZero        
+  [0050] pushZero        
+  [0051] pushZero        
+  [0052] pushArgList      4
+  [0054] pushList        
+  [0055] setGlobal        199
+  [0058] pushZero        
+  [0059] pushZero        
+  [0060] pushZero        
+  [0061] pushZero        
+  [0062] pushArgList      4
+  [0064] pushList        
+  [0065] setGlobal        104
+  [0068] pushZero        
+  [0069] pushZero        
+  [0070] pushZero        
+  [0071] pushZero        
+  [0072] pushArgList      4
+  [0074] pushList        
+  [0075] setGlobal        516
+  [0078] pushZero        
+  [0079] pushZero        
+  [0080] pushZero        
+  [0081] pushZero        
+  [0082] pushArgList      4
+  [0084] pushList        
+  [0085] setGlobal        135
+  [0088] pushZero        
+  [0089] pushZero        
+  [0090] pushZero        
+  [0091] pushZero        
+  [0092] pushArgList      4
+  [0094] pushList        
+  [0095] setGlobal        178
+  [0098] getGlobal        77
+  [0101] getGlobal        77
+  [0104] pushInt8         1
+  [0107] add             
+  [0108] getGlobal        77
+  [0111] pushInt8         2
+  [0114] add             
+  [0115] getGlobal        77
+  [0118] pushInt8         3
+  [0121] add             
+  [0122] pushArgList      4
+  [0124] pushList        
+  [0125] setGlobal        74
+  [0128] pushZero        
+  [0129] pushZero        
+  [0130] pushZero        
+  [0131] pushZero        
+  [0132] pushArgList      4
+  [0134] pushList        
+  [0135] setGlobal        87
+  [0138] pushZero        
+  [0139] pushZero        
+  [0140] pushZero        
+  [0141] pushZero        
+  [0142] pushArgList      4
+  [0144] pushList        
+  [0145] setGlobal        88
+  [0148] pushZero        
+  [0149] pushZero        
+  [0150] pushZero        
+  [0151] pushZero        
+  [0152] pushArgList      4
+  [0154] pushList        
+  [0155] setGlobal        75
+  [0158] pushZero        
+  [0159] pushZero        
+  [0160] pushZero        
+  [0161] pushZero        
+  [0162] pushArgList      4
+  [0164] pushList        
+  [0165] setGlobal        85
+  [0168] pushZero        
+  [0169] setGlobal        131
+  [0172] pushInt8         4
+  [0175] pushArgList      1
+  [0177] localCall        6
+  [0179] pushArgList      1
+  [0181] objCall          22
+  [0183] setGlobal        20
+  [0185] pushInt8         1
+  [0188] setLocal         0
+  [0190] getLocal         0
+  [0192] pushInt8         4
+  [0195] ltEq            
+  [0196] jmpIfZ           62
+  [0199] getGlobal        81
+  [0202] getLocal         0
+  [0204] pushArgList      2
+  [0206] objCall          70
+  [0209] pushSymb         82
+  [0212] eq              
+  [0213] getGlobal        81
+  [0216] getLocal         0
+  [0218] pushArgList      2
+  [0220] objCall          70
+  [0223] pushSymb         83
+  [0226] eq              
+  [0227] or              
+  [0228] jmpIfZ           19
+  [0231] getGlobal        69
+  [0234] getLocal         0
+  [0236] pushSymb         109
+  [0239] pushArgListNoRet 3
+  [0241] objCall          126
+  [0244] jmp              14
+  [0247] pushInt8         1
+  [0250] getLocal         0
+  [0252] add             
+  [0253] setLocal         0
+  [0255] endRepeat        65
+  [0258] ret             
+end
+
+on initHole
+  [0000] getGlobal        18
+  [0002] pushArgList      1
+  [0004] extCall          630
+  [0007] setLocal         0
+  [0009] pushInt8         1
+  [0012] setLocal         8
+  [0014] getLocal         8
+  [0016] pushInt8         4
+  [0019] ltEq            
+  [0020] jmpIfZ           20
+  [0023] getLocal         8
+  [0025] pushArgListNoRet 1
+  [0027] extCall          108
+  [0030] pushInt8         1
+  [0033] getLocal         8
+  [0035] add             
+  [0036] setLocal         8
+  [0038] endRepeat        24
+  [0040] pushArgListNoRet 0
+  [0042] localCall        3
+  [0044] getGlobal        401
+  [0047] pushArgList      1
+  [0049] extCall          91
+  [0052] getGlobal        402
+  [0055] getGlobal        539
+  [0058] getLocal         0
+  [0060] pushArgList      2
+  [0062] objCall          70
+  [0065] add             
+  [0066] pushInt8         2
+  [0069] sub             
+  [0070] setObjProp       51
+  [0073] getGlobal        401
+  [0076] pushInt8         1
+  [0079] add             
+  [0080] pushArgList      1
+  [0082] extCall          91
+  [0085] pushCons         384
+  [0088] pushArgList      1
+  [0090] extCall          50
+  [0093] getObjProp       51
+  [0096] getLocal         0
+  [0098] add             
+  [0099] pushInt8         1
+  [0102] sub             
+  [0103] setObjProp       51
+  [0106] getGlobal        77
+  [0109] getGlobal        77
+  [0112] pushInt8         1
+  [0115] add             
+  [0116] getGlobal        77
+  [0119] pushInt8         2
+  [0122] add             
+  [0123] getGlobal        77
+  [0126] pushInt8         3
+  [0129] add             
+  [0130] pushArgList      4
+  [0132] pushList        
+  [0133] setGlobal        74
+  [0136] pushZero        
+  [0137] pushZero        
+  [0138] pushZero        
+  [0139] pushZero        
+  [0140] pushArgList      4
+  [0142] pushList        
+  [0143] setGlobal        127
+  [0146] getGlobal        537
+  [0149] pushArgList      1
+  [0151] extCall          238
+  [0154] getGlobal        305
+  [0157] pushSymb         562
+  [0160] eq              
+  [0161] or              
+  [0162] jmpIfZ           51
+  [0165] getGlobal        536
+  [0168] pushInt8         4
+  [0171] mul             
+  [0172] pushArgList      1
+  [0174] localCall        6
+  [0176] pushArgList      1
+  [0178] extCall          22
+  [0180] setGlobal        537
+  [0183] pushInt8         4
+  [0186] pushArgList      1
+  [0188] localCall        6
+  [0190] pushArgList      1
+  [0192] extCall          22
+  [0194] setGlobal        304
+  [0197] pushInt8         4
+  [0200] pushArgList      1
+  [0202] localCall        6
+  [0204] pushArgList      1
+  [0206] extCall          22
+  [0208] setLocal         16
+  [0210] jmp              67
+  [0213] getLocal         0
+  [0215] pushInt8         1
+  [0218] eq              
+  [0219] getGlobal        305
+  [0222] pushSymb         631
+  [0225] eq              
+  [0226] and             
+  [0227] jmpIfZ           20
+  [0230] pushInt8         4
+  [0233] pushArgList      1
+  [0235] localCall        6
+  [0237] pushArgList      1
+  [0239] extCall          22
+  [0241] setGlobal        304
+  [0244] jmp              33
+  [0247] getLocal         0
+  [0249] pushInt8         10
+  [0252] eq              
+  [0253] getGlobal        305
+  [0256] pushSymb         632
+  [0259] eq              
+  [0260] and             
+  [0261] jmpIfZ           16
+  [0264] pushInt8         4
+  [0267] pushArgList      1
+  [0269] localCall        6
+  [0271] pushArgList      1
+  [0273] extCall          22
+  [0275] setLocal         16
+  [0277] pushZero        
+  [0278] setGlobal        259
+  [0281] pushZero        
+  [0282] pushZero        
+  [0283] pushZero        
+  [0284] pushZero        
+  [0285] pushArgList      4
+  [0287] pushList        
+  [0288] setGlobal        198
+  [0291] pushZero        
+  [0292] setGlobal        323
+  [0295] getGlobal        396
+  [0298] pushArgListNoRet 1
+  [0300] extCall          56
+  [0303] getGlobal        396
+  [0306] pushInt8         1
+  [0309] add             
+  [0310] pushArgListNoRet 1
+  [0312] extCall          56
+  [0315] getGlobal        396
+  [0318] pushInt8         2
+  [0321] add             
+  [0322] pushArgListNoRet 1
+  [0324] extCall          56
+  [0327] pushArgListNoRet 0
+  [0329] extCall          633
+  [0332] pushInt8         1
+  [0335] pushArgListNoRet 1
+  [0337] extCall          24
+  [0339] pushInt8         1
+  [0342] setLocal         24
+  [0344] getLocal         24
+  [0346] getGlobal        527
+  [0349] ltEq            
+  [0350] jmpIfZ           20
+  [0353] getLocal         24
+  [0355] pushArgListNoRet 1
+  [0357] extCall          627
+  [0360] pushInt8         1
+  [0363] getLocal         24
+  [0365] add             
+  [0366] setLocal         24
+  [0368] endRepeat        24
+  [0370] ret             
+end
+
+on clearScores
+  [0000] pushZero        
+  [0001] setLocal         0
+  [0003] pushZero        
+  [0004] setLocal         8
+  [0006] pushZero        
+  [0007] pushZero        
+  [0008] pushZero        
+  [0009] pushZero        
+  [0010] pushZero        
+  [0011] pushZero        
+  [0012] pushZero        
+  [0013] pushZero        
+  [0014] pushZero        
+  [0015] pushInt8         1
+  [0018] pushZero        
+  [0019] pushZero        
+  [0020] pushZero        
+  [0021] pushZero        
+  [0022] pushZero        
+  [0023] pushZero        
+  [0024] pushZero        
+  [0025] pushZero        
+  [0026] pushZero        
+  [0027] pushInt8         1
+  [0030] pushArgList      20
+  [0032] pushList        
+  [0033] setLocal         16
+  [0035] pushInt8         10
+  [0038] pushInt8         10
+  [0041] pushInt8         10
+  [0044] pushInt8         10
+  [0047] pushInt8         10
+  [0050] pushInt8         10
+  [0053] pushInt8         10
+  [0056] pushInt8         10
+  [0059] pushInt8         10
+  [0062] pushInt8         12
+  [0065] pushInt8         10
+  [0068] pushInt8         10
+  [0071] pushInt8         10
+  [0074] pushInt8         10
+  [0077] pushInt8         10
+  [0080] pushInt8         10
+  [0083] pushInt8         10
+  [0086] pushInt8         10
+  [0089] pushInt8         10
+  [0092] pushInt8         12
+  [0095] pushArgList      20
+  [0097] pushList        
+  [0098] setLocal         24
+  [0100] pushArgListNoRet 0
+  [0102] extCall          615
+  [0105] ret             
+end
+
+on emptyList
+  [0000] pushArgList      0
+  [0002] pushList        
+  [0003] setLocal         0
+  [0005] pushZero        
+  [0006] pushArgList      1
+  [0008] extCall          573
+  [0011] setLocal         8
+  [0013] pushInt8         1
+  [0016] setLocal         16
+  [0018] getLocal         16
+  [0020] getParam         0
+  [0022] ltEq            
+  [0023] jmpIfZ           22
+  [0026] getLocal         0
+  [0028] getLocal         8
+  [0030] pushArgListNoRet 2
+  [0032] extCall          256
+  [0035] pushInt8         1
+  [0038] getLocal         16
+  [0040] add             
+  [0041] setLocal         16
+  [0043] endRepeat        25
+  [0045] getLocal         0
+  [0047] pushArgListNoRet 1
+  [0049] extCall          16
+  [0051] ret             
+end
+
+on testLoaded
+  [0000] getGlobal        72
+  [0003] pushInt8         10
+  [0006] mod             
+  [0007] setLocal         0
+  [0009] getLocal         0
+  [0011] pushZero        
+  [0012] gt              
+  [0013] jmpIfZ           7
+  [0016] pushArgListNoRet 0
+  [0018] extCall          16
+  [0020] getGlobal        596
+  [0023] pushArgList      1
+  [0025] extCall          59
+  [0028] getGlobal        536
+  [0031] lt              
+  [0032] jmpIfZ           14
+  [0035] getGlobal        596
+  [0038] pushZero        
+  [0039] pushArgListNoRet 2
+  [0041] extCall          256
+  [0044] endRepeat        24
+  [0046] pushInt8         1
+  [0049] setLocal         8
+  [0051] pushInt8         1
+  [0054] setLocal         16
+  [0056] pushInt8         1
+  [0059] setLocal         24
+  [0061] pushInt8         1
+  [0064] setLocal         32
+  [0066] pushInt8         1
+  [0069] setLocal         40
+  [0071] getLocal         32
+  [0073] getGlobal        641
+  [0076] pushArgList      1
+  [0078] extCall          59
+  [0081] lt              
+  [0082] jmpIfZ           161
+  [0085] getGlobal        641
+  [0088] getLocal         32
+  [0090] pushArgList      2
+  [0092] extCall          70
+  [0095] setLocal         48
+  [0097] getLocal         48
+  [0099] pushSymb         642
+  [0102] eq              
+  [0103] jmpIfZ           52
+  [0106] getLocal         24
+  [0108] pushInt8         1
+  [0111] eq              
+  [0112] jmpIfZ           11
+  [0115] getGlobal        569
+  [0118] setLocal         24
+  [0120] pushZero        
+  [0121] setLocal         8
+  [0123] getLocal         16
+  [0125] pushInt8         1
+  [0128] add             
+  [0129] setLocal         16
+  [0131] getLocal         32
+  [0133] pushInt8         1
+  [0136] add             
+  [0137] setLocal         32
+  [0139] getLocal         8
+  [0141] pushInt8         1
+  [0144] add             
+  [0145] setLocal         8
+  [0147] pushInt8         1
+  [0150] setLocal         40
+  [0152] jmp              88
+  [0155] getLocal         8
+  [0157] getLocal         24
+  [0159] pushArgList      2
+  [0161] extCall          50
+  [0164] getObjProp       643
+  [0167] setLocal         56
+  [0169] getLocal         8
+  [0171] getLocal         24
+  [0173] pushArgList      2
+  [0175] extCall          50
+  [0178] getObjProp       644
+  [0181] setLocal         64
+  [0183] getLocal         48
+  [0185] pushSymb         645
+  [0188] eq              
+  [0189] jmpIfZ           8
+  [0192] pushInt8         1
+  [0195] setLocal         64
+  [0197] getLocal         48
+  [0199] getLocal         56
+  [0201] ntEq            
+  [0202] getLocal         64
+  [0204] not             
+  [0205] or              
+  [0206] jmpIfZ           6
+  [0209] pushZero        
+  [0210] setLocal         40
+  [0212] getGlobal        596
+  [0215] getLocal         16
+  [0217] getLocal         40
+  [0219] pushArgListNoRet 3
+  [0221] extCall          126
+  [0224] getLocal         8
+  [0226] pushInt8         1
+  [0229] add             
+  [0230] setLocal         8
+  [0232] getLocal         32
+  [0234] pushInt8         1
+  [0237] add             
+  [0238] setLocal         32
+  [0240] endRepeat        169
+  [0243] ret             
+end
+
+on InitializeHoles
+  [0000] pushArgList      0
+  [0002] pushList        
+  [0003] setGlobal        651
+  [0006] pushArgList      0
+  [0008] pushList        
+  [0009] setGlobal        539
+  [0012] pushArgList      0
+  [0014] pushList        
+  [0015] setGlobal        535
+  [0018] pushInt8         1
+  [0021] setLocal         0
+  [0023] getGlobal        651
+  [0026] getLocal         0
+  [0028] pushInt8         1
+  [0031] pushArgListNoRet 3
+  [0033] objCall          126
+  [0036] getGlobal        539
+  [0039] getLocal         0
+  [0041] pushInt8         2
+  [0044] pushArgListNoRet 3
+  [0046] objCall          126
+  [0049] getGlobal        535
+  [0052] getLocal         0
+  [0054] pushInt8         1
+  [0057] pushArgListNoRet 3
+  [0059] objCall          126
+  [0062] pushInt8         2
+  [0065] setLocal         0
+  [0067] getGlobal        651
+  [0070] getLocal         0
+  [0072] pushInt8         1
+  [0075] pushArgListNoRet 3
+  [0077] objCall          126
+  [0080] getGlobal        539
+  [0083] getLocal         0
+  [0085] pushInt8         3
+  [0088] pushArgListNoRet 3
+  [0090] objCall          126
+  [0093] getGlobal        535
+  [0096] getLocal         0
+  [0098] pushInt8         2
+  [0101] pushArgListNoRet 3
+  [0103] objCall          126
+  [0106] pushInt8         3
+  [0109] setLocal         0
+  [0111] getGlobal        651
+  [0114] getLocal         0
+  [0116] pushInt8         1
+  [0119] pushArgListNoRet 3
+  [0121] objCall          126
+  [0124] getGlobal        539
+  [0127] getLocal         0
+  [0129] pushInt8         3
+  [0132] pushArgListNoRet 3
+  [0134] objCall          126
+  [0137] getGlobal        535
+  [0140] getLocal         0
+  [0142] pushInt8         3
+  [0145] pushArgListNoRet 3
+  [0147] objCall          126
+  [0150] pushInt8         4
+  [0153] setLocal         0
+  [0155] getGlobal        651
+  [0158] getLocal         0
+  [0160] pushInt8         1
+  [0163] pushArgListNoRet 3
+  [0165] objCall          126
+  [0168] getGlobal        539
+  [0171] getLocal         0
+  [0173] pushInt8         2
+  [0176] pushArgListNoRet 3
+  [0178] objCall          126
+  [0181] getGlobal        535
+  [0184] getLocal         0
+  [0186] pushInt8         4
+  [0189] pushArgListNoRet 3
+  [0191] objCall          126
+  [0194] pushInt8         5
+  [0197] setLocal         0
+  [0199] getGlobal        651
+  [0202] getLocal         0
+  [0204] pushInt8         1
+  [0207] pushArgListNoRet 3
+  [0209] objCall          126
+  [0212] getGlobal        539
+  [0215] getLocal         0
+  [0217] pushInt8         4
+  [0220] pushArgListNoRet 3
+  [0222] objCall          126
+  [0225] getGlobal        535
+  [0228] getLocal         0
+  [0230] pushInt8         5
+  [0233] pushArgListNoRet 3
+  [0235] objCall          126
+  [0238] pushInt8         6
+  [0241] setLocal         0
+  [0243] getGlobal        651
+  [0246] getLocal         0
+  [0248] pushInt8         1
+  [0251] pushArgListNoRet 3
+  [0253] objCall          126
+  [0256] getGlobal        539
+  [0259] getLocal         0
+  [0261] pushInt8         3
+  [0264] pushArgListNoRet 3
+  [0266] objCall          126
+  [0269] getGlobal        535
+  [0272] getLocal         0
+  [0274] pushInt8         6
+  [0277] pushArgListNoRet 3
+  [0279] objCall          126
+  [0282] pushInt8         7
+  [0285] setLocal         0
+  [0287] getGlobal        651
+  [0290] getLocal         0
+  [0292] pushInt8         1
+  [0295] pushArgListNoRet 3
+  [0297] objCall          126
+  [0300] getGlobal        539
+  [0303] getLocal         0
+  [0305] pushInt8         2
+  [0308] pushArgListNoRet 3
+  [0310] objCall          126
+  [0313] getGlobal        535
+  [0316] getLocal         0
+  [0318] pushInt8         1
+  [0321] pushArgListNoRet 3
+  [0323] objCall          126
+  [0326] pushInt8         8
+  [0329] setLocal         0
+  [0331] getGlobal        651
+  [0334] getLocal         0
+  [0336] pushInt8         1
+  [0339] pushArgListNoRet 3
+  [0341] objCall          126
+  [0344] getGlobal        539
+  [0347] getLocal         0
+  [0349] pushInt8         3
+  [0352] pushArgListNoRet 3
+  [0354] objCall          126
+  [0357] getGlobal        535
+  [0360] getLocal         0
+  [0362] pushInt8         2
+  [0365] pushArgListNoRet 3
+  [0367] objCall          126
+  [0370] pushInt8         9
+  [0373] setLocal         0
+  [0375] getGlobal        651
+  [0378] getLocal         0
+  [0380] pushInt8         1
+  [0383] pushArgListNoRet 3
+  [0385] objCall          126
+  [0388] getGlobal        539
+  [0391] getLocal         0
+  [0393] pushInt8         2
+  [0396] pushArgListNoRet 3
+  [0398] objCall          126
+  [0401] getGlobal        535
+  [0404] getLocal         0
+  [0406] pushInt8         3
+  [0409] pushArgListNoRet 3
+  [0411] objCall          126
+  [0414] pushInt8         10
+  [0417] setLocal         0
+  [0419] getGlobal        651
+  [0422] getLocal         0
+  [0424] pushInt8         1
+  [0427] pushArgListNoRet 3
+  [0429] objCall          126
+  [0432] getGlobal        539
+  [0435] getLocal         0
+  [0437] pushInt8         3
+  [0440] pushArgListNoRet 3
+  [0442] objCall          126
+  [0445] getGlobal        535
+  [0448] getLocal         0
+  [0450] pushInt8         4
+  [0453] pushArgListNoRet 3
+  [0455] objCall          126
+  [0458] pushInt8         11
+  [0461] setLocal         0
+  [0463] getGlobal        651
+  [0466] getLocal         0
+  [0468] pushInt8         1
+  [0471] pushArgListNoRet 3
+  [0473] objCall          126
+  [0476] getGlobal        539
+  [0479] getLocal         0
+  [0481] pushInt8         2
+  [0484] pushArgListNoRet 3
+  [0486] objCall          126
+  [0489] getGlobal        535
+  [0492] getLocal         0
+  [0494] pushInt8         5
+  [0497] pushArgListNoRet 3
+  [0499] objCall          126
+  [0502] pushInt8         12
+  [0505] setLocal         0
+  [0507] getGlobal        651
+  [0510] getLocal         0
+  [0512] pushInt8         1
+  [0515] pushArgListNoRet 3
+  [0517] objCall          126
+  [0520] getGlobal        539
+  [0523] getLocal         0
+  [0525] pushInt8         3
+  [0528] pushArgListNoRet 3
+  [0530] objCall          126
+  [0533] getGlobal        535
+  [0536] getLocal         0
+  [0538] pushInt8         6
+  [0541] pushArgListNoRet 3
+  [0543] objCall          126
+  [0546] pushInt8         13
+  [0549] setLocal         0
+  [0551] getGlobal        651
+  [0554] getLocal         0
+  [0556] pushInt8         1
+  [0559] pushArgListNoRet 3
+  [0561] objCall          126
+  [0564] getGlobal        539
+  [0567] getLocal         0
+  [0569] pushInt8         2
+  [0572] pushArgListNoRet 3
+  [0574] objCall          126
+  [0577] getGlobal        535
+  [0580] getLocal         0
+  [0582] pushInt8         1
+  [0585] pushArgListNoRet 3
+  [0587] objCall          126
+  [0590] pushInt8         14
+  [0593] setLocal         0
+  [0595] getGlobal        651
+  [0598] getLocal         0
+  [0600] pushInt8         1
+  [0603] pushArgListNoRet 3
+  [0605] objCall          126
+  [0608] getGlobal        539
+  [0611] getLocal         0
+  [0613] pushInt8         2
+  [0616] pushArgListNoRet 3
+  [0618] objCall          126
+  [0621] getGlobal        535
+  [0624] getLocal         0
+  [0626] pushInt8         2
+  [0629] pushArgListNoRet 3
+  [0631] objCall          126
+  [0634] pushInt8         15
+  [0637] setLocal         0
+  [0639] getGlobal        651
+  [0642] getLocal         0
+  [0644] pushInt8         1
+  [0647] pushArgListNoRet 3
+  [0649] objCall          126
+  [0652] getGlobal        539
+  [0655] getLocal         0
+  [0657] pushInt8         4
+  [0660] pushArgListNoRet 3
+  [0662] objCall          126
+  [0665] getGlobal        535
+  [0668] getLocal         0
+  [0670] pushInt8         3
+  [0673] pushArgListNoRet 3
+  [0675] objCall          126
+  [0678] pushInt8         16
+  [0681] setLocal         0
+  [0683] getGlobal        651
+  [0686] getLocal         0
+  [0688] pushInt8         1
+  [0691] pushArgListNoRet 3
+  [0693] objCall          126
+  [0696] getGlobal        539
+  [0699] getLocal         0
+  [0701] pushInt8         2
+  [0704] pushArgListNoRet 3
+  [0706] objCall          126
+  [0709] getGlobal        535
+  [0712] getLocal         0
+  [0714] pushInt8         4
+  [0717] pushArgListNoRet 3
+  [0719] objCall          126
+  [0722] pushInt8         17
+  [0725] setLocal         0
+  [0727] getGlobal        651
+  [0730] getLocal         0
+  [0732] pushInt8         1
+  [0735] pushArgListNoRet 3
+  [0737] objCall          126
+  [0740] getGlobal        539
+  [0743] getLocal         0
+  [0745] pushInt8         2
+  [0748] pushArgListNoRet 3
+  [0750] objCall          126
+  [0753] getGlobal        535
+  [0756] getLocal         0
+  [0758] pushInt8         5
+  [0761] pushArgListNoRet 3
+  [0763] objCall          126
+  [0766] pushInt8         18
+  [0769] setLocal         0
+  [0771] getGlobal        651
+  [0774] getLocal         0
+  [0776] pushInt8         1
+  [0779] pushArgListNoRet 3
+  [0781] objCall          126
+  [0784] getGlobal        539
+  [0787] getLocal         0
+  [0789] pushInt8         2
+  [0792] pushArgListNoRet 3
+  [0794] objCall          126
+  [0797] getGlobal        535
+  [0800] getLocal         0
+  [0802] pushInt8         6
+  [0805] pushArgListNoRet 3
+  [0807] objCall          126
+  [0810] ret             
+end
+
+on DebugLog
+  [0000] getGlobal        561
+  [0003] jmpIfZ           33
+  [0006] pushInt8         219
+  [0009] pushArgList      1
+  [0011] extCall          91
+  [0014] pushInt8         1
+  [0017] setObjProp       652
+  [0020] pushCons         392
+  [0023] pushArgList      1
+  [0025] extCall          50
+  [0028] getParam         0
+  [0030] setObjProp       53
+  [0033] jmp              15
+  [0036] pushInt8         219
+  [0039] pushArgList      1
+  [0041] extCall          91
+  [0044] pushZero        
+  [0045] setObjProp       652
+  [0048] ret             
+end

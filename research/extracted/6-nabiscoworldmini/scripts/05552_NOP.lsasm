@@ -1,0 +1,46 @@
+-- Score Script
+on prepareFrame
+  [0000] pushArgListNoRet 0
+  [0002] extCall          1375
+  [0005] ret             
+end
+
+on enterFrame
+  [0000] pushArgListNoRet 0
+  [0002] extCall          1375
+  [0005] ret             
+end
+
+on exitFrame
+  [0000] pushArgList      0
+  [0002] theBuiltin       15
+  [0004] pushArgListNoRet 1
+  [0006] extCall          723
+  [0009] pushArgListNoRet 0
+  [0011] extCall          1375
+  [0014] ret             
+end
+
+on mouseDown
+  [0000] pushArgListNoRet 0
+  [0002] extCall          1375
+  [0005] ret             
+end
+
+on mouseUp
+  [0000] pushArgListNoRet 0
+  [0002] extCall          1375
+  [0005] ret             
+end
+
+on keyDown
+  [0000] pushArgListNoRet 0
+  [0002] extCall          1375
+  [0005] ret             
+end
+
+on keyUp
+  [0000] pushArgListNoRet 0
+  [0002] extCall          1375
+  [0005] ret             
+end
